@@ -20,27 +20,27 @@ const Header = () => {
                     </li>
                   </Link>
                   <Link to={"/"}>
-                    <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
+                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       About me
                     </li>
                   </Link>
                   <Link to={"/"}>
-                    <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
+                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Skills
                     </li>
                   </Link>
                   <Link to={"/"}>
-                    <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
+                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Service
                     </li>
                   </Link>
                   <Link to={"/"}>
-                    <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
+                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Portfolio
                     </li>
                   </Link>
                   <Link to={"/"}>
-                    <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
+                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Contact
                     </li>
                   </Link>
@@ -55,7 +55,7 @@ const Header = () => {
               "https://res.cloudinary.com/dxihqxcjs/image/upload/ar_3:4,c_auto/myPortfolioPic_cmhtcu.jpg"
             }
             className={
-              "absolute top-[-70px] right-[-40px] w-[540px] rounded-full z-0"
+              "absolute top-[-150px] right-[-20px] w-[540px] rounded-full z-0"
             }
           />
         </Container>
