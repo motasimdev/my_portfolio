@@ -1,13 +1,22 @@
-import React from 'react'
+import React from "react";
+import Container from "../Container";
+import Flex from "../Flex";
 
 const Banner = () => {
   return (
     <>
-    <div className="bg-[#3B939D] h-[700px]">
-        
-    </div>
+      <div className="bg-[#3B939D] py-[180px]">
+        <Container>
+          <div className="">
+            <Flex>
+              <div className="">Hello,</div>
+              <div className=""></div>
+            </Flex>
+          </div>
+        </Container>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

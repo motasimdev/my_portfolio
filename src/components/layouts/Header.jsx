@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import { Link } from "react-router-dom";
+import Image from "../Image";
 
 const Header = () => {
   return (
@@ -34,6 +35,7 @@ const Header = () => {
                 </ul>
               </div>
             </Flex>
+            <Image  />
           </div>
         </Container>
       </div>
