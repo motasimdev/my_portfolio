@@ -6,7 +6,7 @@ import Image from '../Image'
 const About = () => {
   return (
     <>
-    <section className="bg-primary ">
+    <section className="bg-primary py-[60px]">
         <Container>
             <Flex className={"justify-between"}>
                 <div className="w-[50%] flex flex-col gap-y-[60px] relative">
