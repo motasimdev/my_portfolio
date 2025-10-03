@@ -9,7 +9,11 @@ const Banner = () => {
         <Container>
           <div className="">
             <Flex>
-              <div className="">Hello,</div>
+              <div className="">
+                <h3 className="font-semibold text-white text-[42px]">Hello,</h3>
+                <h2 className="font-semibold text-[#E0FFFE] text-[60px]">I am Motasim Billah</h2>
+                <h4 className="font-semibold text-white text-[42px]">I am a MERN Stack Developer</h4>
+              </div>
               <div className=""></div>
             </Flex>
           </div>
