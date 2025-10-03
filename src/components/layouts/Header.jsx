@@ -55,7 +55,7 @@ const Header = () => {
               "https://res.cloudinary.com/dxihqxcjs/image/upload/ar_3:4,c_auto/myPortfolioPic_cmhtcu.jpg"
             }
             className={
-              "absolute top-[-150px] right-[-20px] w-[540px] rounded-full z-0"
+              "absolute top-[-120px] right-[-20px] w-[540px] rounded-full z-0"
             }
           />
         </Container>
