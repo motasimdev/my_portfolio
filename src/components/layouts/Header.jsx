@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="py-7 bg-primary relative">
-        <Container>
+        <Container className={"overflow-hidden"}>
           <div className="py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-10">
             <Flex className="justify-between">
               <div className="">logo</div>

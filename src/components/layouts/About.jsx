@@ -12,7 +12,7 @@ const About = () => {
                 <div className="w-[50%] flex flex-col gap-y-[60px] relative">
                     <div className="bg-[#72C6CF] w-[400px] h-[90px] ml-auto"></div>
                     <div className="bg-[#72C6CF] w-[400px] h-[90px] ml-auto"></div>
-                    <Image src={"https://res.cloudinary.com/dxihqxcjs/image/upload/v1759516688/portfolioPic2_mgpmbt.png"} alt={""} className={"absolute w-[390px]"}/>
+                    <Image src={"https://res.cloudinary.com/dxihqxcjs/image/upload/v1759516688/portfolioPic2_mgpmbt.png"} alt={""} className={"absolute top-[-75px] left-0 w-[390px]"}/>
                 </div>
                 <div className="w-[50%] py-[50px] px-[40px] bg-[#72C6CF]">
                     <h3 className='text-primary font-semibold text-4xl text-center pb-[40px]'>About me</h3>
