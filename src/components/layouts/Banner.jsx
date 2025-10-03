@@ -3,9 +3,9 @@ import React from 'react'
 const Banner = () => {
   return (
     <>
-    <div className="bg-primary">
+    <section className="bg-[#3B939D] h-[700px]">
         
-    </div>
+    </section>
     </>
   )
 }
