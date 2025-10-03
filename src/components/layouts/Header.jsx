@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <div className="py-7 bg-primary relative">
         <Container>
-          <div className="py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full">
+          <div className="py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-10">
             <Flex className="justify-between">
               <div className="">logo</div>
               <div className="">
@@ -47,13 +47,17 @@ const Header = () => {
                 </ul>
               </div>
             </Flex>
-        <Image
-          src={
-            "https://res.cloudinary.com/dxihqxcjs/image/upload/ar_3:4,c_auto/myPortfolioPic_cmhtcu.jpg"
-          }
-          className={"absolute top-[-50px] right-[-40px] w-[440px] rounded-full z-[-50]"}
-        />
           </div>
+        </Container>
+        <Container className={"relative"}>
+          <Image
+            src={
+              "https://res.cloudinary.com/dxihqxcjs/image/upload/ar_3:4,c_auto/myPortfolioPic_cmhtcu.jpg"
+            }
+            className={
+              "absolute top-[-70px] right-[-40px] w-[540px] rounded-full z-0"
+            }
+          />
         </Container>
       </div>
     </>

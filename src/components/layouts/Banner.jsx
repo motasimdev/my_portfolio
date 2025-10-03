@@ -5,7 +5,7 @@ import Flex from "../Flex";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[#3B939D] py-[180px]">
+      <div className="bg-[#3B939D] py-[180px] z-[-2]">
         <Container>
           <div className="">
             <Flex>
