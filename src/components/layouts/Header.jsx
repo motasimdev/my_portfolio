@@ -7,9 +7,9 @@ import Image from "../Image";
 const Header = () => {
   return (
     <>
-      <div className="py-7 bg-primary relative">
-        <Container className={"overflow-hidden"}>
-          <div className="py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-10">
+      <div className="py-7 bg-primary">
+        <Container>
+          <div className="py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-50">
             <Flex className="justify-between">
               <div className="">logo</div>
               <div className="">
@@ -48,16 +48,6 @@ const Header = () => {
               </div>
             </Flex>
           </div>
-        </Container>
-        <Container className={"relative"}>
-          <Image
-            src={
-              "https://res.cloudinary.com/dxihqxcjs/image/upload/ar_3:4,c_auto/myPortfolioPic_cmhtcu.jpg"
-            }
-            className={
-              "absolute top-[-120px] right-[-20px] w-[540px] rounded-full z-0"
-            }
-          />
         </Container>
       </div>
     </>

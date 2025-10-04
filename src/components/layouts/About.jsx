@@ -6,7 +6,7 @@ import Image from "../Image";
 const About = () => {
   return (
     <>
-      <section id="aboutMe" className="bg-primary py-[60px]">
+      <section id="aboutMe" className="bg-primary py-[60px] scroll-mt-[105px] h-[700px] flex items-center">
         <Container>
           <Flex className={"justify-between"}>
             <div className="w-[50%] flex flex-col gap-y-[60px] relative">
@@ -25,14 +25,7 @@ const About = () => {
                 About me
               </h3>
               <p className="text-white font-medium text-base text-justify leading-[27px]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Exercitationem, nobis aspernatur amet temporibus fugiat iure
-                ratione, possimus, eius accusantium soluta tempore ipsa!
-                Recusandae, qui perferendis. Perferendis officia nam iste esse
-                praesentium saepe temporibus quae. Adipisci, facere voluptates.
-                Aspernatur, tempore? Reprehenderit ullam cum rem labore tempora
-                minima dolores blanditiis? Harum sapiente recusandae rerum fugit
-                saepe dolorem beatae.
+               I am a passionate Front-End Web Developer specializing in HTML, CSS, Tailwind CSS, JavaScript, React.js, and Redux. I can convert Figma designs into responsive, pixel-perfect web templates and bring them to life using React.js. Experienced with jQuery plugins and focused on modern front-end development practices.
               </p>
               <Flex className="justify-center gap-x-6 pt-9">
                 {/* <button className="border-white/20 bg-black/15 backdrop-blur-[15px] py-[14px] px-12 text-base font-medium text-[#E0FFFE]">
