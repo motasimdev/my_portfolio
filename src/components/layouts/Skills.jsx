@@ -6,9 +6,13 @@ import { TbBrandCss3 } from "react-icons/tb";
 import { TbBrandJavascript } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { RiBootstrapLine } from "react-icons/ri";
-import { SiReactquery } from "react-icons/si";
-import { TbBrandRedux } from "react-icons/tb";
+import { TbBrandRedux, TbBrandReact  } from "react-icons/tb";
 import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNodejs } from "react-icons/tb";
+import { SiMongodb } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { BiLogoJquery } from "react-icons/bi";
+import { DiMaterializecss } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -41,7 +45,7 @@ const Skills = () => {
                 <p className="font-medium text-black text-2xl">Bootstrap</p>
               </div>
               <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
-                <SiReactquery className="text-[50px]" />
+                <TbBrandReact  className="text-[50px]" />
                 <p className="font-medium text-black text-2xl">React</p>
               </div>
               <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
@@ -51,6 +55,26 @@ const Skills = () => {
               <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
                 <TbBrandNextjs className="text-[50px]" />
                 <p className="font-medium text-black text-2xl">Next Js</p>
+              </div>
+              <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
+                <TbBrandNodejs className="text-[50px]" />
+                <p className="font-medium text-black text-2xl">Node Js</p>
+              </div>
+              <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
+                <SiMongodb className="text-[50px]" />
+                <p className="font-medium text-black text-2xl">Mongodb</p>
+              </div>
+              <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
+                <DiMaterializecss className="text-[50px]" />
+                <p className="font-medium text-black text-2xl">Materialize ui</p>
+              </div>
+              <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
+                <BiLogoJquery className="text-[50px]" />
+                <p className="font-medium text-black text-2xl">Jquery</p>
+              </div>
+              <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px]">
+                <FaGithub className="text-[50px]" />
+                <p className="font-medium text-black text-2xl">Github</p>
               </div>
             </Flex>
           </div>
