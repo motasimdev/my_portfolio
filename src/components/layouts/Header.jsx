@@ -19,11 +19,11 @@ const Header = () => {
                       Home
                     </li>
                   </Link>
-                  <Link to={"/"}>
+                  <a href="#aboutMe" className="scroll-smooth">
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       About me
                     </li>
-                  </Link>
+                  </a>
                   <Link to={"/"}>
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Skills
