@@ -24,11 +24,11 @@ const Header = () => {
                       About me
                     </li>
                   </a>
-                  <Link to={"/"}>
+                  <a href="#skills">
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Skills
                     </li>
-                  </Link>
+                  </a>
                   <Link to={"/"}>
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Service

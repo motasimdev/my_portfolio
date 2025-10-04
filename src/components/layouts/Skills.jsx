@@ -20,13 +20,13 @@ import { PiFigmaLogoDuotone } from "react-icons/pi";
 const Skills = () => {
   return (
     <>
-      <div className="py-[60px] bg-[#3B939D]">
+      <section id="skills" className="py-[60px] bg-[#3B939D] scroll-mt-[50px]">
         <Container>
           <div className="">
             <h3 className="text-primary font-semibold text-4xl text-center pb-[40px]">
               Skills
             </h3>
-            <Flex className={"flex-wrap gap-x-7 gap-y-7 justify-between"}>
+            <Flex className={"flex-wrap gap-x-7 gap-y-13 justify-between"}>
               <div className="bg-[#D9D9D9] flex justify-center items-center h-[82px] w-[250px] gap-x-4 cursor-pointer">
                 <RiHtml5Line className="text-[50px]" />
                 <p className="font-medium text-black text-2xl">HTML</p>
@@ -110,7 +110,7 @@ const Skills = () => {
             </Flex>
           </div>
         </Container>
-      </div>
+      </section>
     </>
   );
 };
