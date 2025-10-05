@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "../Container";
+import Flex from "../Flex";
+import Image from "../Image";
 
 const Portfolio = () => {
   return (
@@ -13,6 +15,14 @@ const Portfolio = () => {
                   Portfolio
                 </h3>
               </div>
+              <Flex className="justify-between">
+                <div className="group relative border-2 border-[#d1d1d1]">
+                    <Image src={"https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"} className={"w-[200px] h-[400px]"}/>
+                    <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[200px] h-[400px]">
+                        
+                    </div>
+                </div>
+              </Flex>
             </div>
           </Container>
         </div>
