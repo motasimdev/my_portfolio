@@ -4,6 +4,7 @@ import About from '../layouts/About'
 import Skills from '../layouts/Skills'
 import Service from '../layouts/Service'
 import Portfolio from '../layouts/Portfolio'
+import Contact from '../layouts/Contact'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <Skills/>
     <Service/>
     <Portfolio/>
+    <Contact/>
     </>
   )
 }

@@ -39,11 +39,11 @@ const Header = () => {
                       Portfolio
                     </li>
                   </a>
-                  <Link to={"/"}>
+                  <a href="">
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Contact
                     </li>
-                  </Link>
+                  </a>
                 </ul>
               </div>
             </Flex>
