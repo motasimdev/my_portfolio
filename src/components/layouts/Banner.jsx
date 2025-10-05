@@ -25,7 +25,7 @@ const Banner = () => {
                     "https://res.cloudinary.com/dxihqxcjs/image/upload/ar_3:4,c_auto/myPortfolioPic_cmhtcu.jpg"
                   }
                   className={
-                    "absolute top-[-320px] right-[-30px] w-[560px] rounded-full z-0"
+                    "absolute top-[-320px] right-[-30px] w-[560px] rounded-full z-40"
                   }
                 />
               </div>

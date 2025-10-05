@@ -5,27 +5,37 @@ import { Link } from "react-router-dom";
 import Image from "../Image";
 
 const Header = () => {
-  const [sticky, setSticky] = useState(false)
+    const [sticky, setSticky] = useState(true);
+
   useEffect(() => {
-    const handlScroll = () => {
-      if (window.scrollY > 50) {
-        setSticky(true);
-      } else {
+     const handleScroll = () => {
+      const y = window.scrollY;
+
+      if (y > 50 && y < 500) {
+        // 👉 ৫০ থেকে ৪০০ এর মধ্যে থাকলে HIDE
         setSticky(false);
+      } else {
+        // 👉 ০–৫০ বা ৪০০ এর বেশি হলে SHOW
+        setSticky(true);
       }
     };
-    window.addEventListener("scroll", handlScroll);
-    return () => {
-      window.removeEventListener("scroll", handlScroll);
-    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <>
-      <div className={`py-7 w-full bg-primary z-30 fixed top-0 left-0 ${sticky ? "bg-transparent" : "bg-primary shadow-lg"}`}>
+      <div
+        className={`py-7 w-full z-50 fixed top-0 transition-transform duration-300 left-0 ${
+          sticky ? "translate-y-0 bg-transparent" : "-translate-y-full"
+        }`}
+      >
         <Container>
           <div
-            className={`py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-50 `}
+            className={`py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-50 ${
+              sticky ? "bg-teal-300 shadow-lg" : "bg-transparent"
+            }`}
           >
             <Flex className="justify-between">
               <div className="">logo</div>
