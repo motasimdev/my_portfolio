@@ -18,7 +18,7 @@ const Service = () => {
               </h3>
               </div>
               <Flex className={"justify-between"}>
-                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] ">
+                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <LiaTvSolid className="m-auto text-6xl text-white" />
                   <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
                     Web Design
@@ -30,7 +30,7 @@ const Service = () => {
                     unique, functional, and perfectly aligned with your brand.
                   </p>
                 </div>
-                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] ">
+                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <MdResetTv className="m-auto text-6xl text-white" />
                   <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
                     MERN Development
@@ -42,7 +42,7 @@ const Service = () => {
                     solutions.
                   </p>
                 </div>
-                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] ">
+                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <MdConnectedTv className="m-auto text-6xl text-white" />
                   <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
                     API Development
