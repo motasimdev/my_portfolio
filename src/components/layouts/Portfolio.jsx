@@ -40,6 +40,78 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
+                <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
+                  <Image
+                    src={
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"
+                    }
+                    className={"w-[200px] h-[400px]"}
+                  />
+                  <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
+                    <a
+                      href=""
+                      target="_"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                    >
+                      view project
+                    </a>
+                    <a
+                      href=""
+                      target="_"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[-50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                    >
+                      source code
+                    </a>
+                  </div>
+                </div>
+                <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
+                  <Image
+                    src={
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"
+                    }
+                    className={"w-[200px] h-[400px]"}
+                  />
+                  <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
+                    <a
+                      href=""
+                      target="_"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                    >
+                      view project
+                    </a>
+                    <a
+                      href=""
+                      target="_"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[-50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                    >
+                      source code
+                    </a>
+                  </div>
+                </div>
+                <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
+                  <Image
+                    src={
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"
+                    }
+                    className={"w-[200px] h-[400px]"}
+                  />
+                  <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
+                    <a
+                      href=""
+                      target="_"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                    >
+                      view project
+                    </a>
+                    <a
+                      href=""
+                      target="_"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[-50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                    >
+                      source code
+                    </a>
+                  </div>
+                </div>
               </Flex>
             </div>
           </Container>
