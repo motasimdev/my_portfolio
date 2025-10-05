@@ -13,13 +13,20 @@ const Contact = () => {
                 Contact
               </h3>
             </div>
-            <div className="bg-primary p-10">
-              <Flex>
-                <div className="w-[45%]">
-                    <input type="text" placeholder="your name" className="py-4 px-5 w-[100%] border border-none focus:outline-0 bg-[#3B939D]"/>
+            <div className="bg-primary p-12">
+              <Flex className={"justify-between"}>
+                <div className="w-[48%] flex flex-col gap-y-10">
+                    <input type="text" placeholder="your name" className="py-5 px-5 w-full border border-none focus:outline-0 bg-[#E0FFFE]"/>
+                    <input type="email" placeholder="your email" className="py-5 px-5 w-full border border-none focus:outline-0 bg-[#E0FFFE]"/>
+                    <input type="number" placeholder="your phone" className="no-spinner py-5 px-5 w-full border border-none focus:outline-0 bg-[#E0FFFE]"/>
                 </div>
-                <div className="w-[45%]"></div>
+                <div className="w-[48%] flex items-center justify-center">
+                    <textarea name="" id="" placeholder="your massage" className="py-4 px-5 h-[272px] w-full bg-[#E0FFFE] border-none focus:outline-0 resize-none"></textarea>
+                </div>
               </Flex>
+              <div className="flex items-center justify-center mt-10">
+                <button className="py-5 px-10 bg-[#E0FFFE] text-lg font-medium border border-primary cursor-pointer hover:bg-primary hover:border hover:border-[#E0FFFE] hover:text-[#E0FFFE] transition-all duration-300">Let's Connect</button>
+              </div>
             </div>
           </Container>
         </div>
