@@ -29,11 +29,11 @@ const Header = () => {
                       Skills
                     </li>
                   </a>
-                  <Link to={"/"}>
+                  <a href="#service">
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Service
                     </li>
-                  </Link>
+                  </a>
                   <Link to={"/"}>
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Portfolio
