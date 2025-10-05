@@ -30,14 +30,14 @@ const Portfolio = () => {
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       view project
                     </a>
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[-50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform -translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       source code
                     </a>
@@ -57,14 +57,14 @@ const Portfolio = () => {
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       view project
                     </a>
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[-50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform -translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       source code
                     </a>
@@ -85,14 +85,14 @@ const Portfolio = () => {
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       view project
                     </a>
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[-50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform -translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       source code
                     </a>
@@ -113,14 +113,14 @@ const Portfolio = () => {
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       view project
                     </a>
                     <a
                       href=""
                       target="_"
-                      className="py-3 px-4 text-white hover:text-primary border transform translate-x-[-50px] group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+                      className="py-3 px-4 text-white hover:text-primary border transform -translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       source code
                     </a>
