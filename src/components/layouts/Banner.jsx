@@ -6,7 +6,7 @@ import Image from "../Image";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[#3B939D] py-[170px]">
+      <section id="banner" className="bg-[#3B939D] pb-[170px] pt-[300px]">
         <Container>
           <div className="relative">
             <Flex>
@@ -32,7 +32,7 @@ const Banner = () => {
             </Flex>
           </div>
         </Container>
-      </div>
+      </section>
     </>
   );
 };
