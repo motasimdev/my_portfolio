@@ -6,7 +6,7 @@ import Image from "../Image";
 const About = () => {
   return (
     <>
-      <section id="aboutMe" className="bg-primary py-[60px] scroll-mt-[105px] h-[700px] flex items-center">
+      <section id="aboutMe" className="bg-primary py-[60px] scroll-mt-[20px] h-[700px] flex items-center">
         <Container>
           <Flex className={"justify-between"}>
             <div className="w-[50%] flex flex-col gap-y-[60px] relative">

@@ -50,61 +50,61 @@ const Skills = () => {
                 <p className="font-medium text-[#E0FFFE] text-md">Tailwind Css</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <RiBootstrapLine className="text-[30px]" />
+                <RiBootstrapLine className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Bootstrap</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandReact className="text-[30px]" />
+                <TbBrandReact className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">React</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandRedux className="text-[30px]" />
+                <TbBrandRedux className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Redux</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandNextjs className="text-[30px]" />
+                <TbBrandNextjs className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Next Js</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandNodejs className="text-[30px]" />
+                <TbBrandNodejs className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Node Js</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <SiMongodb className="text-[30px]" />
+                <SiMongodb className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Mongodb</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <DiMaterializecss className="text-[30px]" />
+                <DiMaterializecss className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">
                   Materialize ui
                 </p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <BiLogoJquery className="text-[30px]" />
+                <BiLogoJquery className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Jquery</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <SiChakraui className="text-[30px]" />
+                <SiChakraui className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Chakra ui</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <FaGithub className="text-[30px]" />
+                <FaGithub className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Github</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <CgTrello className="text-[30px]" />
+                <CgTrello className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Trello</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <RiNpmjsFill className="text-[30px]" />
+                <RiNpmjsFill className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Npm</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <VscVscodeInsiders className="text-[30px]" />
+                <VscVscodeInsiders className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Vs Code</p>
               </div>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <PiFigmaLogoDuotone className="text-[30px]" />
+                <PiFigmaLogoDuotone className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Figma</p>
               </div>
               {/* <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
