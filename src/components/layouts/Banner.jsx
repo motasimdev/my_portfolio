@@ -6,8 +6,9 @@ import Image from "../Image";
 const Banner = () => {
   return (
     <>
-      <section id="banner" className="bg-[#3B939D] pb-[170px] pt-[300px]">
-        <Container>
+      <section id="banner" className="bg-primary pt-[105px]">
+        <div className="bg-[#3B939D] py-[170px]">
+          <Container>
           <div className="relative">
             <Flex>
               <div className="">
@@ -32,6 +33,7 @@ const Banner = () => {
             </Flex>
           </div>
         </Container>
+        </div>
       </section>
     </>
   );

@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import { LiaTvSolid } from "react-icons/lia";
 import { MdConnectedTv } from "react-icons/md";
 import { MdResetTv } from "react-icons/md";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Service = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      offset: 100, // scroll offset before animation triggers
+      once: false, // true = animation happens only once
+    });
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section id="service" className="h-[680px] scroll-mt-0">
@@ -14,11 +24,14 @@ const Service = () => {
             <div className="">
               <div className=" mb-[60px] py-6 bg-[radial-gradient(circle,rgba(59,147,157,1)_0%,rgba(56,143,153,1)_9%,rgba(11,86,99,1)_100%)]">
                 <h3 className="text-[#E0FFFE] font-semibold text-4xl text-center">
-                My Services
-              </h3>
+                  My Services
+                </h3>
               </div>
               <Flex className={"justify-between"}>
-                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
+                <div
+                  data-aos="zoom-in"
+                  className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                >
                   <LiaTvSolid className="m-auto text-6xl text-white" />
                   <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
                     Web Design
@@ -30,7 +43,11 @@ const Service = () => {
                     unique, functional, and perfectly aligned with your brand.
                   </p>
                 </div>
-                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
+
+                <div
+                  data-aos="zoom-in"
+                  className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                >
                   <MdResetTv className="m-auto text-6xl text-white" />
                   <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
                     MERN Development
@@ -42,7 +59,11 @@ const Service = () => {
                     solutions.
                   </p>
                 </div>
-                <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
+
+                <div
+                  data-aos="zoom-in"
+                  className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                >
                   <MdConnectedTv className="m-auto text-6xl text-white" />
                   <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
                     API Development
