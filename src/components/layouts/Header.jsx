@@ -34,11 +34,11 @@ const Header = () => {
                       Service
                     </li>
                   </a>
-                  <Link to={"/"}>
+                  <a href="#portfolio">
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Portfolio
                     </li>
-                  </Link>
+                  </a>
                   <Link to={"/"}>
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Contact

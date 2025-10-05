@@ -6,7 +6,7 @@ import Image from "../Image";
 const Portfolio = () => {
   return (
     <>
-      <section className="h-[680px] scroll-mt-0">
+      <section id="portfolio" className="h-[720px] scroll-mt-0">
         <div className="pt-[100px] h-[550px]  bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(80,134,143,1)_36%,rgba(58,119,129,1)_45%,rgba(39,106,117,1)_54%,rgba(28,98,110,1)_62%,rgba(21,93,105,1)_67%,rgba(11,86,99,1)_100%)]">
           <Container>
             <div className="">
@@ -17,7 +17,7 @@ const Portfolio = () => {
               </div>
               <Flex className="justify-between">
 
-                
+
                 {/* project 1 */}
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657113/ummah_qeaqq7.png"
                     }
                     className={"w-[200px] h-[400px]"}
                   />
@@ -77,7 +77,7 @@ const Portfolio = () => {
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657113/uomo_yxt047.png"
                     }
                     className={"w-[200px] h-[400px]"}
                   />
@@ -105,7 +105,7 @@ const Portfolio = () => {
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657113/creative_agency_prxqxk.png"
                     }
                     className={"w-[200px] h-[400px]"}
                   />
