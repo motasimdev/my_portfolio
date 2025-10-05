@@ -39,7 +39,7 @@ const Header = () => {
                       Portfolio
                     </li>
                   </a>
-                  <a href="">
+                  <a href="#contact">
                     <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
                       Contact
                     </li>
