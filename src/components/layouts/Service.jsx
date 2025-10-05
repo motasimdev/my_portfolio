@@ -14,7 +14,7 @@ const Service = () => {
             </h3>
             <Flex className={"justify-between"}>
               <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] ">
-                <LiaTvSolid className="m-auto text-6xl mt-3 text-white" />
+                <LiaTvSolid className="m-auto text-6xl text-white" />
                 <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
                   Web Design
                 </h3>
@@ -23,6 +23,24 @@ const Service = () => {
                   designs focused on user experience and clean layout. Using
                   tools like Figma and Tailwind CSS, I ensure every design is
                   unique, functional, and perfectly aligned with your brand.
+                </p>
+              </div>
+              <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] ">
+                <LiaTvSolid className="m-auto text-6xl text-white" />
+                <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
+                  MERN Development
+                </h3>
+                <p className="text-white text-base text-justify leading-[32px]">
+                  I develop full-stack web applications using MongoDB, Express, React, and Node.js. From backend logic to frontend design, I ensure powerful, scalable, and user-friendly solutions.
+                </p>
+              </div>
+              <div className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] ">
+                <LiaTvSolid className="m-auto text-6xl text-white" />
+                <h3 className="text-center text-2xl text-[#E0FFFE] py-5">
+                  API Development
+                </h3>
+                <p className="text-white text-base text-justify leading-[32px]">
+                  I create secure and efficient RESTful APIs using Node.js and Express. My APIs are well-structured, fast, and easy to integrate with any frontend or mobile application.
                 </p>
               </div>
             </Flex>
