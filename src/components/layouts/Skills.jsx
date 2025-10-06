@@ -17,6 +17,7 @@ import { VscVscodeInsiders } from "react-icons/vsc";
 import { CgTrello } from "react-icons/cg";
 import { PiFigmaLogoDuotone } from "react-icons/pi";
 import Marquee from "react-fast-marquee";
+import { MdWidthFull } from "react-icons/md";
 
 const Skills = () => {
   return (
@@ -31,9 +32,8 @@ const Skills = () => {
             </div>
             <Marquee speed={50}
             gradient={false}
-            gradientWidth={28}
             >
-              <Flex className={"flex-wrap gap-x-7 justify-between"}>
+              <Flex className={"flex-wrap gap-x-10 justify-between"}>
                 <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] gap-x-4 cursor-pointer">
                   <RiHtml5Line className="text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-md">HTML</p>
@@ -76,7 +76,7 @@ const Skills = () => {
             speed={50}
             direction="right"
             >
-              <Flex className={"flex-wrap gap-x-7 my-13 justify-between m"}>
+              <Flex className={"flex-wrap gap-x-10 my-13 justify-between m"}>
                 <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
                   <TbBrandRedux className="text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-md">Redux</p>
@@ -109,14 +109,14 @@ const Skills = () => {
             <Marquee speed={50}
             
             >
-              <Flex className={"flex-wrap gap-x-7 justify-between"}>
-                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+              <Flex className={"flex-wrap gap-x-10 justify-between"}>
+                <div className="bg-primary flex justify-center items-center gap-x-2 h-[50px] w-[160px] cursor-pointer">
                   <SiChakraui className="text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-md">
                     Chakra ui
                   </p>
                 </div>
-                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                <div className="bg-primary flex justify-center items-center gap-x-2 h-[50px] w-[160px] cursor-pointer">
                   <FaGithub className="text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-md">Github</p>
                 </div>
