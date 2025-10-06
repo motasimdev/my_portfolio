@@ -8,11 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { RiBootstrapLine, RiNpmjsFill } from "react-icons/ri";
 import { TbBrandRedux, TbBrandReact } from "react-icons/tb";
 import { TbBrandNextjs } from "react-icons/tb";
-import {
-  TbBrandNodejs,
-  TbBrandAdobeIllustrator,
-  TbBrandAdobePhotoshop,
-} from "react-icons/tb";
+import { TbBrandNodejs } from "react-icons/tb";
 import { SiMongodb, SiChakraui } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoJquery } from "react-icons/bi";
@@ -32,27 +28,35 @@ const Skills = () => {
                 My Skills
               </h3>
             </div>
+
             <Flex className={"flex-wrap gap-x-7 gap-y-13 justify-between"}>
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] gap-x-4 cursor-pointer">
                 <RiHtml5Line className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">HTML</p>
               </div>
+
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] gap-x-4 cursor-pointer">
                 <TbBrandCss3 className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">CSS</p>
               </div>
+
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
                 <TbBrandJavascript className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Javascript</p>
               </div>
+
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
                 <RiTailwindCssFill className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Tailwind Css</p>
+                <p className="font-medium text-[#E0FFFE] text-md">
+                  Tailwind Css
+                </p>
               </div>
+
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
                 <RiBootstrapLine className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">Bootstrap</p>
               </div>
+
               <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
                 <TbBrandReact className="text-[30px] text-[#E0FFFE]" />
                 <p className="font-medium text-[#E0FFFE] text-md">React</p>
