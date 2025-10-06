@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 const Loader = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen bg-black">
+      <div className="flex flex-col justify-center items-center h-screen bg-black z-[9999] fixed inset-0">
         {/* Logo Animation */}
         <motion.div
           initial={{ scale: 0, rotate: 0, opacity: 0 }}
@@ -28,6 +28,7 @@ const Loader = () => {
             className="text-[#00FFF0] font-bold text-lg"
           >
             MB
+            {/* <motion.img src="" alt="" /> */}
           </motion.span>
         </motion.div>
 
