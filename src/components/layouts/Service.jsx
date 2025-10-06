@@ -4,18 +4,9 @@ import Flex from "../Flex";
 import { LiaTvSolid } from "react-icons/lia";
 import { MdConnectedTv } from "react-icons/md";
 import { MdResetTv } from "react-icons/md";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { motion } from "motion/react";
 
 const Service = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // animation duration in ms
-      offset: 100, // scroll offset before animation triggers
-      once: false, // true = animation happens only once
-    });
-    AOS.refresh();
-  }, []);
   return (
     <>
       <section id="service" className="h-[680px] scroll-mt-0">
@@ -28,8 +19,12 @@ const Service = () => {
                 </h3>
               </div>
               <Flex className={"justify-between"}>
-                <div
-                  data-aos="zoom-in"
+                {/* =================1============== */}
+                <motion.div
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  viewport={{ once: false, amount: 0.5 }}
+                  transition={{ type: "spring", stiffness: 100, damping: 20 }}
                   className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <LiaTvSolid className="m-auto text-6xl text-white" />
@@ -42,10 +37,15 @@ const Service = () => {
                     tools like Figma and Tailwind CSS, I ensure every design is
                     unique, functional, and perfectly aligned with your brand.
                   </p>
-                </div>
+                </motion.div>
+                {/* =================1============== */}
+                {/* =================2============== */}
 
-                <div
-                  data-aos="zoom-in"
+                <motion.div
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  viewport={{ once: false, amount: 0.5 }}
+                  transition={{ type: "spring", stiffness: 100, damping: 20 }}
                   className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <MdResetTv className="m-auto text-6xl text-white" />
@@ -58,10 +58,15 @@ const Service = () => {
                     design, I ensure powerful, scalable, and user-friendly
                     solutions.
                   </p>
-                </div>
+                </motion.div>
 
-                <div
-                  data-aos="zoom-in"
+                {/* =================2============== */}
+                {/* =================3============== */}
+                <motion.div
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  viewport={{ once: false, amount: 0.5 }}
+                  transition={{ type: "spring", stiffness: 100, damping: 20 }}
                   className=" w-[380px] h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <MdConnectedTv className="m-auto text-6xl text-white" />
@@ -73,7 +78,8 @@ const Service = () => {
                     Express. My APIs are well-structured, fast, and easy to
                     integrate with any frontend or mobile application.
                   </p>
-                </div>
+                </motion.div>
+                {/* =================3============== */}
               </Flex>
             </div>
           </Container>
