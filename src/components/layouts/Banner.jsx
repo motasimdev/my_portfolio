@@ -2,18 +2,8 @@ import React, { useEffect } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Banner = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // animation duration in ms
-      // offset: 100, // scroll offset before animation triggers
-      once: true, // true = animation happens only once
-    });
-    AOS.refresh();
-  }, []);
 
   return (
     <>
@@ -35,7 +25,6 @@ const Banner = () => {
                 </div>
                 <div className="">
                   <Image
-                    data-aos="fade-down"
                     src={
                       "https://res.cloudinary.com/dxihqxcjs/image/upload/c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg"
                     }

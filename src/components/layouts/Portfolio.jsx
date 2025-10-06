@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Portfolio = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      offset: 50, // scroll offset before animation triggers
+      once: false, // true = animation happens only once
+    });
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section id="portfolio" className="h-[720px] scroll-mt-0">
@@ -16,16 +26,17 @@ const Portfolio = () => {
                 </h3>
               </div>
               <Flex className="justify-between">
-
-
                 {/* project 1 */}
-                <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
-                  <Image
-                    src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto,w_600/orebi_ws4jqk.png"
-                    }
+                <div
+                  data-aos="flip-right"
+                  className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                >
+                  <img
+                    src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto,w_600/orebi_ws4jqk.png"
+                    alt="portfolio"
                     className={"w-[200px] h-[400px]"}
                   />
+
                   <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
                     <a
                       href=""
@@ -46,12 +57,16 @@ const Portfolio = () => {
                 {/* project 1 */}
 
                 {/* project 2 */}
-                <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
-                  <Image
+                <div
+                  data-aos="flip-right"
+                  className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                >
+                  <img
                     src={
                       "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto,w_600/ummah_qeaqq7.png"
                     }
                     className={"w-[200px] h-[400px]"}
+                    alt="portfolio"
                   />
                   <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
                     <a
@@ -72,14 +87,17 @@ const Portfolio = () => {
                 </div>
                 {/* project 2 */}
 
-
                 {/* project 3 */}
-                <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
-                  <Image
+                <div
+                  data-aos="flip-right"
+                  className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                >
+                  <img
                     src={
                       "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/creative_agency_prxqxk.png"
                     }
                     className={"w-[200px] h-[400px]"}
+                    alt="portfolio"
                   />
                   <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
                     <a
@@ -100,14 +118,17 @@ const Portfolio = () => {
                 </div>
                 {/* project 3 */}
 
-
                 {/* project 4 */}
-                <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
-                  <Image
+                <div
+                  data-aos="flip-right"
+                  className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                >
+                  <img
                     src={
                       "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/uomo_yxt047.png"
                     }
                     className={"w-[200px] h-[400px]"}
+                    alt="portfolio"
                   />
                   <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
                     <a
