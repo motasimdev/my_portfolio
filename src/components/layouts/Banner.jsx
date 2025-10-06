@@ -19,8 +19,8 @@ const Banner = () => {
       typeSpeed: 50,
       loop: true,
       cursorChar: "|",
-      backDelay:1500,
-      backSpeed:30,
+      backDelay: 1500,
+      backSpeed: 30,
     });
 
     return () => {
@@ -43,11 +43,25 @@ const Banner = () => {
                     I am Motasim Billah
                   </h2>
                   <div className="App">
-                    <span ref={el} className="font-semibold text-[#E0FFFE] text-[40px]"/>
+                    <span
+                      ref={el}
+                      className="font-semibold text-[#E0FFFE] text-[40px]"
+                    />
                   </div>
-                  <button className="border-white/20 bg-black/15 backdrop-blur-[15px] py-[14px] px-12 text-base font-medium text-[#E0FFFE] cursor-pointer hover:bg-primary transition-colors duration-300">
-                  My CV
-                  </button>
+                  <a href="">
+                    <button class="relative flex items-center px-6 py-3 mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group">
+                      <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
+                        <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                      </span>
+                      <span class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-ml-4 group-hover:-mb-4">
+                        <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                      </span>
+                      <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-primary rounded-md group-hover:translate-x-0"></span>
+                      <span class="relative w-full text-left text-black transition-colors duration-200 ease-in-out group-hover:text-white">
+                        Get my CV
+                      </span>
+                    </button>
+                  </a>
                 </div>
                 <div className="">
                   <motion.img
