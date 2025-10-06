@@ -19,7 +19,7 @@ const Portfolio = () => {
               <Flex className="justify-between">
 
                 {/* project 1 */}
-                
+
                 <motion.div
                   // ====animate=======
                   initial={{
@@ -33,6 +33,10 @@ const Portfolio = () => {
                   }}
                   transition={{
                     duration:1,
+                  }}
+                  whileHover={{
+                    y:-4,
+                    transition:{duration:0.1}
                   }}
 
                   // ====animate=======
@@ -77,6 +81,10 @@ const Portfolio = () => {
                   }}
                   transition={{
                     duration:1,
+                  }}
+                  whileHover={{
+                    y:-4,
+                    transition:{duration:0.1}
                   }}
 
                   // ====animate=======
@@ -123,6 +131,10 @@ const Portfolio = () => {
                   transition={{
                     duration:1,
                   }}
+                  whileHover={{
+                    y:-4,
+                    transition:{duration:0.1}
+                  }}
 
                   // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
@@ -167,6 +179,10 @@ const Portfolio = () => {
                   }}
                   transition={{
                     duration:1,
+                  }}
+                  whileHover={{
+                    y:-4,
+                    transition:{duration:0.1}
                   }}
 
                   // ====animate=======

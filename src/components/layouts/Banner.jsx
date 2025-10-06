@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
+import { motion } from "motion/react"
 
 const Banner = () => {
 
@@ -24,7 +25,22 @@ const Banner = () => {
                   </h4>
                 </div>
                 <div className="">
-                  <Image
+                  <motion.img
+                  // ========animate=====
+                  initial={{
+                      y:-100,
+                  }}
+                  whileInView={{
+                    y:0,
+                  }}
+                  viewport={{
+                    once:true,
+                  }}
+                  transition={{
+                    duration:1.5,
+                  }}
+                  // ========animate=====
+
                     src={
                       "https://res.cloudinary.com/dxihqxcjs/image/upload/c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg"
                     }
