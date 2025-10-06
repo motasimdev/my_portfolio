@@ -45,6 +45,9 @@ const Banner = () => {
                   <div className="App">
                     <span ref={el} className="font-semibold text-[#E0FFFE] text-[40px]"/>
                   </div>
+                  <button className="border-white/20 bg-black/15 backdrop-blur-[15px] py-[14px] px-12 text-base font-medium text-[#E0FFFE] cursor-pointer hover:bg-primary transition-colors duration-300">
+                  My CV
+                  </button>
                 </div>
                 <div className="">
                   <motion.img
