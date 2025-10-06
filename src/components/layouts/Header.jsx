@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
-import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa6";
+import { RxCross1 } from "react-icons/rx";
 import Image from "../Image";
 
 const Header = () => {
-  const [menu , setMenu] = useState (false)
-    const [sticky, setSticky] = useState(true);
+  const [menu, setMenu] = useState(false);
+  const [sticky, setSticky] = useState(true);
 
   useEffect(() => {
-     const handleScroll = () => {
+    const handleScroll = () => {
       const y = window.scrollY;
 
       if (y > 50 && y < 500) {
@@ -75,56 +76,100 @@ const Header = () => {
             </Flex>
           </div>
         </Container>
+      </div>
 
-        {/* ===========responsive=============== */}
+      {/* ===========responsive=============== */}
+      <div className="lg:hidden">
         <Container>
-          <div
-            className={`py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-50 ${
-              sticky ? "bg-teal-300 shadow-lg" : "bg-transparent"
-            }`}
-          >
-            <Flex className="justify-between">
-              <div className="">logo</div>
-              <div className="">
-                <ul className="flex items-center gap-x-6">
-                  <a href="#banner">
-                    <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
-                      Home
-                    </li>
-                  </a>
-                  <a href="#aboutMe" className="scroll-smooth">
-                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                      About me
-                    </li>
-                  </a>
-                  <a href="#skills">
-                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                      Skills
-                    </li>
-                  </a>
-                  <a href="#service">
-                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                      Service
-                    </li>
-                  </a>
-                  <a href="#portfolio">
-                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                      Portfolio
-                    </li>
-                  </a>
-                  <a href="#contact">
-                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                      Contact
-                    </li>
-                  </a>
-                </ul>
-              </div>
-            </Flex>
+          <div className="">
+            <div className="flex justify-between ">
+              <button className="cursor-pointer" onClick={() => setMenu(!menu)}>
+                {menu ? <RxCross1 /> : <FaBars />}
+              </button>
+              <a href="">
+                <Image src={"logo"} alt={"logo"} className={""} />
+              </a>
+            </div>
+            <div
+              className={`overflow-hidden transition-all duration-500 ease-in-out
+                
+                ${menu ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
+            >
+              {/* <Flex className="justify-between">
+                <div className="">logo</div>
+                <div className="">
+                  <ul className="flex items-center gap-x-6">
+                    <a href="#banner">
+                      <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
+                        Home
+                      </li>
+                    </a>
+                    <a href="#aboutMe" className="scroll-smooth">
+                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
+                        About me
+                      </li>
+                    </a>
+                    <a href="#skills">
+                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
+                        Skills
+                      </li>
+                    </a>
+                    <a href="#service">
+                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
+                        Service
+                      </li>
+                    </a>
+                    <a href="#portfolio">
+                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
+                        Portfolio
+                      </li>
+                    </a>
+                    <a href="#contact">
+                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
+                        Contact
+                      </li>
+                    </a>
+                  </ul>
+                </div>
+              </Flex> */}
+              <ul className="border-white/20 bg-black/15 backdrop-blur-[15px] text-center p-5 mt-2">
+                <a href="#banner">
+                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                    Home
+                  </li>
+                </a>
+                <a href="#aboutMe">
+                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                    Shop
+                  </li>
+                </a>
+                <a href="#skills">
+                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                    About
+                  </li>
+                </a>
+                <a href="#service">
+                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                    Contact
+                  </li>
+                </a>
+                <a href="#portfolio">
+                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                    Journal
+                  </li>
+                </a>
+                <a href="#contact">
+                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                    Journal
+                  </li>
+                </a>
+              </ul>
+            </div>
           </div>
         </Container>
-
-        {/* ===========responsive=============== */}
       </div>
+
+      {/* ===========responsive=============== */}
     </>
   );
 };
