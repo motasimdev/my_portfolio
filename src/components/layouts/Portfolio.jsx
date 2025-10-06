@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657111/orebi_ws4jqk.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto,w_600/orebi_ws4jqk.png"
                     }
                     className={"w-[200px] h-[400px]"}
                   />
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657113/ummah_qeaqq7.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto,w_600/ummah_qeaqq7.png"
                     }
                     className={"w-[200px] h-[400px]"}
                   />
@@ -77,7 +77,7 @@ const Portfolio = () => {
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657113/uomo_yxt047.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/uomo_yxt047.png"
                     }
                     className={"w-[200px] h-[400px]"}
                   />
@@ -105,7 +105,7 @@ const Portfolio = () => {
                 <div className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]">
                   <Image
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/v1759657113/creative_agency_prxqxk.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/creative_agency_prxqxk.png"
                     }
                     className={"w-[200px] h-[400px]"}
                   />
