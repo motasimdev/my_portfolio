@@ -21,7 +21,7 @@ const Service = () => {
               <Flex className={"justify-between"}>
                 {/* =================1============== */}
                 <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
+                  initial={{ scale: 0.5, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
                   viewport={{ once: false, amount: 0.5 }}
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}
@@ -42,7 +42,7 @@ const Service = () => {
                 {/* =================2============== */}
 
                 <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
+                  initial={{ scale: 0.5, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
                   viewport={{ once: false, amount: 0.5 }}
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}
@@ -63,7 +63,7 @@ const Service = () => {
                 {/* =================2============== */}
                 {/* =================3============== */}
                 <motion.div
-                  initial={{ scale: 0.8, opacity: 0 }}
+                  initial={{ scale: 0.5, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
                   viewport={{ once: false, amount: 0.5 }}
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}

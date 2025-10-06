@@ -19,7 +19,7 @@ const Banner = () => {
       typeSpeed: 50,
       loop: true,
       cursorChar: "|",
-      backDelay: 1500,
+      backDelay: 800,
       backSpeed: 30,
     });
 
