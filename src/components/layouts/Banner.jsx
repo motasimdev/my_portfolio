@@ -37,7 +37,7 @@ const Banner = () => {
                   <Image
                     data-aos="fade-down"
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto,w_600,c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg"
                     }
                     className={
                       "absolute top-[-320px] right-[-30px] w-[560px] rounded-full z-40"
