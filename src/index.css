@@ -18,3 +18,8 @@ body{
 .no-spinner {
   -moz-appearance: textfield;
 }
+
+.typed-cursor {
+  @apply text-white text-4xl font-bold;
+  animation: blink 3s infinite;
+}

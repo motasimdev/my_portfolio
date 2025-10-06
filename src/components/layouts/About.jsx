@@ -7,7 +7,7 @@ import { motion } from "motion/react"
 const About = () => {
   return (
     <>
-      <section id="aboutMe" className="bg-primary py-[60px] scroll-mt-[20px] h-[700px] flex items-center">
+      <section id="aboutMe" className="bg-primary py-[60px] scroll-mt-[15px] h-[700px] flex items-center">
         <Container>
           <Flex className={"justify-between"}>
             <div className="w-[50%] flex flex-col gap-y-[60px] relative">
@@ -28,6 +28,7 @@ const About = () => {
                 }}
                 viewport={{
                   once:false,
+                  amount:0.2,
                 }}
                 transition={{
                   duration:2,
