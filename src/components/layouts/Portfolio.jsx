@@ -17,7 +17,9 @@ const Portfolio = () => {
                 </h3>
               </div>
               <Flex className="justify-between">
+
                 {/* project 1 */}
+                
                 <motion.div
                   // ====animate=======
                   initial={{
