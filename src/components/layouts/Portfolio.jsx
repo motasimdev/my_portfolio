@@ -2,18 +2,9 @@ import React, { useEffect } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { motion } from "motion/react"
 
 const Portfolio = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // animation duration in ms
-      offset: 50, // scroll offset before animation triggers
-      once: false, // true = animation happens only once
-    });
-    AOS.refresh();
-  }, []);
   return (
     <>
       <section id="portfolio" className="h-[720px] scroll-mt-0">
@@ -27,8 +18,22 @@ const Portfolio = () => {
               </div>
               <Flex className="justify-between">
                 {/* project 1 */}
-                <div
-                  data-aos="flip-right"
+                <motion.div
+                  // ====animate=======
+                  initial={{
+                    rotateY: 120,
+                  }}
+                  whileInView={{
+                    rotateY:0,
+                  }}
+                  viewport={{
+                    once:false,
+                  }}
+                  transition={{
+                    duration:1,
+                  }}
+
+                  // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <img
@@ -53,12 +58,26 @@ const Portfolio = () => {
                       source code
                     </a>
                   </div>
-                </div>
+                </motion.div>
                 {/* project 1 */}
 
                 {/* project 2 */}
-                <div
-                  data-aos="flip-right"
+                <motion.div
+                  // ====animate=======
+                  initial={{
+                    rotateY: 120,
+                  }}
+                  whileInView={{
+                    rotateY:0,
+                  }}
+                  viewport={{
+                    once:false,
+                  }}
+                  transition={{
+                    duration:1,
+                  }}
+
+                  // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <img
@@ -84,12 +103,26 @@ const Portfolio = () => {
                       source code
                     </a>
                   </div>
-                </div>
+                </motion.div>
                 {/* project 2 */}
 
                 {/* project 3 */}
-                <div
-                  data-aos="flip-right"
+                <motion.div
+                  // ====animate=======
+                  initial={{
+                    rotateY: 120,
+                  }}
+                  whileInView={{
+                    rotateY:0,
+                  }}
+                  viewport={{
+                    once:false,
+                  }}
+                  transition={{
+                    duration:1,
+                  }}
+
+                  // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <img
@@ -115,12 +148,26 @@ const Portfolio = () => {
                       source code
                     </a>
                   </div>
-                </div>
+                </motion.div>
                 {/* project 3 */}
 
                 {/* project 4 */}
-                <div
-                  data-aos="flip-right"
+                <motion.div
+                  // ====animate=======
+                  initial={{
+                    rotateY: 120,
+                  }}
+                  whileInView={{
+                    rotateY:0,
+                  }}
+                  viewport={{
+                    once:false,
+                  }}
+                  transition={{
+                    duration:1,
+                  }}
+
+                  // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <img
@@ -146,7 +193,7 @@ const Portfolio = () => {
                       source code
                     </a>
                   </div>
-                </div>
+                </motion.div>
                 {/* project 4 */}
               </Flex>
             </div>
