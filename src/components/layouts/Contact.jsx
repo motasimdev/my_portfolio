@@ -21,7 +21,7 @@ const Contact = () => {
                     <input type="number" placeholder="your phone" className="no-spinner py-5 px-5 w-full border border-none focus:outline-0 bg-[#E0FFFE]"/>
                 </div>
                 <div className="w-[48%] flex items-center justify-center">
-                    <textarea name="" id="" placeholder="your massege" className="py-4 px-5 h-[272px] w-full bg-[#E0FFFE] border-none focus:outline-0 resize-none"></textarea>
+                    <textarea name="" id="" placeholder="your message" className="py-4 px-5 h-[272px] w-full bg-[#E0FFFE] border-none focus:outline-0 resize-none"></textarea>
                 </div>
               </Flex>
               <div className="flex items-center justify-center mt-10">
