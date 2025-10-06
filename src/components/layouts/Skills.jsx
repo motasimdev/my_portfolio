@@ -16,6 +16,7 @@ import { DiMaterializecss } from "react-icons/di";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { CgTrello } from "react-icons/cg";
 import { PiFigmaLogoDuotone } from "react-icons/pi";
+import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   return (
@@ -28,98 +29,115 @@ const Skills = () => {
                 My Skills
               </h3>
             </div>
+            <Marquee speed={50}
+            gradient={false}
+            gradientWidth={28}
+            >
+              <Flex className={"flex-wrap gap-x-7 justify-between"}>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] gap-x-4 cursor-pointer">
+                  <RiHtml5Line className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">HTML</p>
+                </div>
 
-            <Flex className={"flex-wrap gap-x-7 gap-y-13 justify-between"}>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] gap-x-4 cursor-pointer">
-                <RiHtml5Line className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">HTML</p>
-              </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] gap-x-4 cursor-pointer">
+                  <TbBrandCss3 className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">CSS</p>
+                </div>
 
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] gap-x-4 cursor-pointer">
-                <TbBrandCss3 className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">CSS</p>
-              </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <TbBrandJavascript className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">
+                    Javascript
+                  </p>
+                </div>
 
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandJavascript className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Javascript</p>
-              </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <RiTailwindCssFill className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">
+                    Tailwind Css
+                  </p>
+                </div>
 
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <RiTailwindCssFill className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">
-                  Tailwind Css
-                </p>
-              </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <RiBootstrapLine className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">
+                    Bootstrap
+                  </p>
+                </div>
 
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <RiBootstrapLine className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Bootstrap</p>
-              </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <TbBrandReact className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">React</p>
+                </div>
+              </Flex>
+            </Marquee>
 
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandReact className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">React</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandRedux className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Redux</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandNextjs className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Next Js</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandNodejs className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Node Js</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <SiMongodb className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Mongodb</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <DiMaterializecss className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">
-                  Materialize ui
-                </p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <BiLogoJquery className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Jquery</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <SiChakraui className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Chakra ui</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <FaGithub className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Github</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <CgTrello className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Trello</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <RiNpmjsFill className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Npm</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <VscVscodeInsiders className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Vs Code</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <PiFigmaLogoDuotone className="text-[30px] text-[#E0FFFE]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Figma</p>
-              </div>
-              {/* <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandAdobeIllustrator className="text-[30px]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Illustrator</p>
-              </div>
-              <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
-                <TbBrandAdobePhotoshop className="text-[30px]" />
-                <p className="font-medium text-[#E0FFFE] text-md">Photoshop</p>
-              </div> */}
-            </Flex>
+            <Marquee 
+            speed={50}
+            direction="right"
+            >
+              <Flex className={"flex-wrap gap-x-7 my-13 justify-between m"}>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <TbBrandRedux className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Redux</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <TbBrandNextjs className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Next Js</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <TbBrandNodejs className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Node Js</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <SiMongodb className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Mongodb</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <DiMaterializecss className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">
+                    Materialize ui
+                  </p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <BiLogoJquery className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Jquery</p>
+                </div>
+              </Flex>
+            </Marquee>
+
+            <Marquee speed={50}
+            
+            >
+              <Flex className={"flex-wrap gap-x-7 justify-between"}>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <SiChakraui className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">
+                    Chakra ui
+                  </p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <FaGithub className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Github</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <CgTrello className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Trello</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <RiNpmjsFill className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Npm</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <VscVscodeInsiders className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Vs Code</p>
+                </div>
+                <div className="bg-primary flex justify-center items-center h-[50px] w-[160px] cursor-pointer">
+                  <PiFigmaLogoDuotone className="text-[30px] text-[#E0FFFE]" />
+                  <p className="font-medium text-[#E0FFFE] text-md">Figma</p>
+                </div>
+              </Flex>
+            </Marquee>
           </div>
         </Container>
       </section>
