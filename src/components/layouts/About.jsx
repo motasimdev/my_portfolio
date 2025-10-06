@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
-import Image from "../Image";
 import { motion } from "motion/react"
 
 const About = () => {
@@ -53,12 +52,13 @@ const About = () => {
                I am a passionate Front-End Web Developer specializing in HTML, CSS, Tailwind CSS, JavaScript, React.js, and Redux. I can convert Figma designs into responsive, pixel-perfect web templates and bring them to life using React.js. Experienced with jQuery plugins and focused on modern front-end development practices.
               </p>
               <Flex className="justify-center gap-x-6 pt-9">
-                {/* <button className="border-white/20 bg-black/15 backdrop-blur-[15px] py-[14px] px-12 text-base font-medium text-[#E0FFFE]">
-                  Hire me
-                </button> */}
-                <button className="border-white/20 bg-black/15 backdrop-blur-[15px] py-[14px] px-12 text-base font-medium text-[#E0FFFE] cursor-pointer hover:bg-primary transition-colors duration-300">
-                  Download CV
-                </button>
+                <button class="cursor-pointer font-semibold overflow-hidden relative   bg-black/15 backdrop-blur-[15px] border-[#72C6CF] group px-8 py-3">
+                      <span class="relative z-10 text-primary group-hover:text-white text-md duration-500">
+                         Download CV
+                      </span>
+                      <span class="absolute w-full h-full bg-primary -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
+                      <span class="absolute w-full h-full bg-primary -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500"></span>
+                    </button>
               </Flex>
             </div>
           </Flex>
