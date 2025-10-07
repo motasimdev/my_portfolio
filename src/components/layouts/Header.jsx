@@ -79,14 +79,14 @@ const Header = () => {
       </div>
 
       {/* ===========responsive=============== */}
-      <div className="py-3 px-3 lg:hidden">
+      <div className="py-3 px-3 lg:hidden bg-primary">
         <Container>
           <div className="">
             <div className="flex justify-between">
               <button className="cursor-pointer" onClick={() => setMenu(!menu)}>
-                {menu ? <RxCross1 className="text-primary"/> : <FaBars className="text-primary"/>}
+                {menu ? <RxCross1 className="text-[#E0FFFE]"/> : <FaBars className="text-[#E0FFFE]"/>}
               </button>
-              <a href="" className="text-primary font-bold">
+              <a href="" className="text-[#E0FFFE] font-bold">
                 {/* <Image src={"logo"} alt={"logo"} className={""} /> */}
                 logo
               </a>
@@ -96,7 +96,7 @@ const Header = () => {
                 
                 ${menu ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
             >
-              <ul className="border-white/20 bg-[#72C6CF]/15 backdrop-blur-[15px] text-center p-5 mt-2">
+              <ul className="border-white/20 bg-[#E0FFFE] backdrop-blur-[15px] text-center p-5 mt-2">
                 <a href="#banner">
                   <li className=" text-primary font-medium text-sm py-1.5">
                     Home
