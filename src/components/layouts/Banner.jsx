@@ -35,16 +35,16 @@ const Banner = () => {
             <div className="relative">
               <Flex>
                 <div className="">
-                  <h3 className="font-semibold text-center lg:text-left text-white text-[18px] lg:text-[30px]">
+                  <h3 className="font-semibold text-white text-[18px] lg:text-[30px] relative z-60">
                     Hello,
                   </h3>
-                  <h2 className="font-semibold text-[#E0FFFE] text-[24px] lg:text-[60px] py-1 relative z-50 lg:z-0">
+                  <h2 className="font-semibold text-[#E0FFFE] text-[24px] lg:text-[60px] py-1 relative z-60 lg:z-0">
                     I am Motasim Billah
                   </h2>
                   <div className="App">
                     <span
                       ref={el}
-                      className="font-semibold text-[#E0FFFE] text-sm lg:text-[40px]"
+                      className="font-semibold text-[#E0FFFE] text-sm lg:text-[40px] z-60"
                     />
                   </div>
                   <Flex className={"gap-x-5"}>
