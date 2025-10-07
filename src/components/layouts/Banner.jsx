@@ -30,7 +30,7 @@ const Banner = () => {
   return (
     <>
       <section id="banner" className="bg-primary pt-[20px] lg:pt-[105px]">
-        <div className="bg-[#3B939D] pb-[30px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
+        <div className="bg-[#3B939D] pb-[75px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
           <Container>
             <div className="relative">
               <Flex>
@@ -47,18 +47,18 @@ const Banner = () => {
                       className="font-semibold text-[#E0FFFE] text-[24px] lg:text-[40px] relative z-60"
                     />
                   </div>
-                  <Flex className={"gap-x-5"}>
+                  <Flex className={"gap-x-5 mt-12 lg:mt-0"}>
                     {/* ==================btn 1======== */}
                     <a href="">
-                      <button class="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 mt-8 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-60">
-                        <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
-                          <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                      <button class="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-60">
+                        <span class="absolute top-0 right-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
+                          <span class="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                         </span>
-                        <span class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-ml-4 group-hover:-mb-4">
-                          <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                        <span class="absolute bottom-0 rotate-180 left-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-ml-4 group-hover:-mb-4">
+                          <span class="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                         </span>
                         <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-primary rounded-md group-hover:translate-x-0"></span>
-                        <span class="relative w-full text-left text-primary transition-colors duration-200 ease-in-out group-hover:text-[#E0FFFE] font-bold">
+                        <span class="relative w-full text-left text-primary transition-colors duration-200 ease-in-out group-hover:text-[#E0FFFE] font-medium lg:font-bold text-[12px] lg:text-[16px]">
                           Get my CV
                         </span>
                       </button>
@@ -67,13 +67,13 @@ const Banner = () => {
 
                     {/* ==================btn 2======== */}
 
-                    <div class="flex justify-center items-center mt-19">
+                    <div class="flex justify-center items-center lg:mt-19">
                       <button
                         href="/"
-                        class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover:from-[#72C6CF] hover: cursor-pointer"
+                        class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to-[#72C6CF] lg:to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover: hover: cursor-pointer relative z-60"
                       >
                         <svg
-                          class="w-7"
+                          class="w-4.5 lg:w-7"
                           viewBox="0 0 15 15"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
