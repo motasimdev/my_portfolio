@@ -19,7 +19,7 @@ const Portfolio = () => {
               </div>
               <Slider/>
 
-              <Flex className="justify-between hidden lg:block">
+              <div className="hidden lg:flex items-center justify-between">
                 {/* project 1 */}
                 <motion.div
                   // ====animate=======
@@ -210,7 +210,7 @@ const Portfolio = () => {
                   </div>
                 </motion.div>
                 {/* project 4 */}
-              </Flex>
+              </div>
             </div>
           </Container>
         </div>
