@@ -38,19 +38,19 @@ const Banner = () => {
                   <h3 className="font-semibold text-white text-[18px] lg:text-[30px] relative z-60">
                     Hello,
                   </h3>
-                  <h2 className="font-semibold text-[#E0FFFE] text-[24px] lg:text-[60px] py-1 relative z-60 lg:z-0">
+                  <h2 className="font-semibold text-[#E0FFFE] text-[34px] lg:text-[60px] py-1 relative z-60 lg:z-0">
                     I am Motasim Billah
                   </h2>
                   <div className="App">
                     <span
                       ref={el}
-                      className="font-semibold text-[#E0FFFE] text-sm lg:text-[40px] z-60"
+                      className="font-semibold text-[#E0FFFE] text-[24px] lg:text-[40px] relative z-60"
                     />
                   </div>
                   <Flex className={"gap-x-5"}>
                     {/* ==================btn 1======== */}
                     <a href="">
-                      <button class="relative flex items-center px-6 py-3 mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group">
+                      <button class="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 mt-8 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-60">
                         <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
                           <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                         </span>
