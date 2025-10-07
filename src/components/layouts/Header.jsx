@@ -79,15 +79,16 @@ const Header = () => {
       </div>
 
       {/* ===========responsive=============== */}
-      <div className="py-5 px-3 lg:hidden">
+      <div className="py-3 px-3 lg:hidden">
         <Container>
           <div className="">
             <div className="flex justify-between">
               <button className="cursor-pointer" onClick={() => setMenu(!menu)}>
-                {menu ? <RxCross1 /> : <FaBars />}
+                {menu ? <RxCross1 className="text-primary"/> : <FaBars className="text-primary"/>}
               </button>
-              <a href="">
-                <Image src={"logo"} alt={"logo"} className={""} />
+              <a href="" className="text-primary font-bold">
+                {/* <Image src={"logo"} alt={"logo"} className={""} /> */}
+                logo
               </a>
             </div>
             <div
@@ -95,43 +96,6 @@ const Header = () => {
                 
                 ${menu ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
             >
-              {/* <Flex className="justify-between">
-                <div className="">logo</div>
-                <div className="">
-                  <ul className="flex items-center gap-x-6">
-                    <a href="#banner">
-                      <li className="text-base font-medium text-[#E0FFFE] hover:text-white transition-all duration-300">
-                        Home
-                      </li>
-                    </a>
-                    <a href="#aboutMe" className="scroll-smooth">
-                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                        About me
-                      </li>
-                    </a>
-                    <a href="#skills">
-                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                        Skills
-                      </li>
-                    </a>
-                    <a href="#service">
-                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                        Service
-                      </li>
-                    </a>
-                    <a href="#portfolio">
-                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                        Portfolio
-                      </li>
-                    </a>
-                    <a href="#contact">
-                      <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
-                        Contact
-                      </li>
-                    </a>
-                  </ul>
-                </div>
-              </Flex> */}
               <ul className="border-white/20 bg-[#72C6CF]/15 backdrop-blur-[15px] text-center p-5 mt-2">
                 <a href="#banner">
                   <li className=" text-primary font-medium text-sm py-1.5">
@@ -140,27 +104,27 @@ const Header = () => {
                 </a>
                 <a href="#aboutMe">
                   <li className=" text-primary font-medium text-sm py-1.5">
-                    Shop
+                    About
                   </li>
                 </a>
                 <a href="#skills">
                   <li className=" text-primary font-medium text-sm py-1.5">
-                    About
+                    Skills
                   </li>
                 </a>
                 <a href="#service">
                   <li className=" text-primary font-medium text-sm py-1.5">
-                    Contact
+                    Service
                   </li>
                 </a>
                 <a href="#portfolio">
                   <li className=" text-primary font-medium text-sm py-1.5">
-                    Journal
+                    Portfolio
                   </li>
                 </a>
                 <a href="#contact">
                   <li className=" text-primary font-medium text-sm py-1.5">
-                    Journal
+                    Contact
                   </li>
                 </a>
               </ul>
