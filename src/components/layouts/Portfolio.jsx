@@ -3,6 +3,7 @@ import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
 import { motion } from "motion/react";
+import Slider from "../Slider";
 
 const Portfolio = () => {
   return (
@@ -16,6 +17,7 @@ const Portfolio = () => {
                   Portfolio
                 </h3>
               </div>
+              <Slider/>
 
               <Flex className="justify-between">
                 {/* project 1 */}
