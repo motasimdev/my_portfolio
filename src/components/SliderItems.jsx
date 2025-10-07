@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 const SliderItems = () => {
   return (
     <>
-      <div className="min-w-[300px] h-[200px] bg-red-500 text-white flex justify-center items-center rounded-xl">
+      <div className="min-w-[250px] h-[200px] flex justify-center items-center rounded-xl">
         {/* project 1 */}
         <motion.div
           // ====animate=======
@@ -52,7 +52,7 @@ const SliderItems = () => {
         </motion.div>
         {/* project 1 */}
       </div>
-      <div className="min-w-[300px] h-[200px] bg-green-500 text-white flex justify-center items-center rounded-xl">
+      <div className="min-w-[250px] h-[200px] flex justify-center items-center rounded-xl">
         {/* project 2 */}
         <motion.div
           // ====animate=======
@@ -101,7 +101,7 @@ const SliderItems = () => {
         </motion.div>
         {/* project 2 */}
       </div>
-      <div className="min-w-[300px] h-[200px] bg-blue-500 text-white flex justify-center items-center rounded-xl">
+      <div className="min-w-[250px] h-[200px] flex justify-center items-center rounded-xl">
         {/* project 3 */}
         <motion.div
           // ====animate=======
@@ -150,7 +150,7 @@ const SliderItems = () => {
         </motion.div>
         {/* project 3 */}
       </div>
-      <div className="min-w-[300px] h-[200px] bg-purple-500 text-white flex justify-center items-center rounded-xl">
+      <div className="min-w-[250px] h-[200px] flex justify-center items-center rounded-xl">
         {/* project 4 */}
         <motion.div
           // ====animate=======

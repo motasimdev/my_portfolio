@@ -19,7 +19,7 @@ const Portfolio = () => {
               </div>
               <Slider/>
 
-              <Flex className="justify-between">
+              <Flex className="justify-between hidden lg:block">
                 {/* project 1 */}
                 <motion.div
                   // ====animate=======

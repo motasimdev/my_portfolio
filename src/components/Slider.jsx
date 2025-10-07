@@ -5,7 +5,7 @@ import SliderItems from './SliderItems';
 const Slider = () => {
   return (
     <>
-    <div className="overflow-hidden w-full py-10">
+    <div className="overflow-hidden w-full py-50 lg:hidden -translate-y-15">
       <motion.div
         className="flex gap-6"
         animate={{ x: ["0%", "-100%"] }}
