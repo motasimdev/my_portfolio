@@ -51,7 +51,7 @@ const About = () => {
             </div>
             <div className="m-auto w-[90%] lg:w-[50%] py-[30px] lg:py-[50px] px-[30px] lg:px-[40px] bg-[#72C6CF]">
               <h3 className="text-primary font-semibold text-3xl lg:text-4xl text-center pb-[20px] lg:pb-[40px] relative z-10">
-                <span className="py-2 lg:py-2 px-4 lg:px-[160px] border border-white/20 bg-primary/15 backdrop-blur-[15px]">About me</span>
+                <span className="py-2 lg:py-2 px-4 lg:px-[160px] border border-white/20 bg-primary/15 backdrop-blur-[15px] font-semibold">About me</span>
               </h3>
               <p className="text-white font-medium text-sm lg:text-base text-justify leading-[22px] lg:leading-[27px]">
                 I am a passionate Front-End Web Developer specializing in HTML,
