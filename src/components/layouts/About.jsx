@@ -19,7 +19,7 @@ const About = () => {
               <motion.img
                 // ======animate=======
                 initial={{
-                  x: 150,
+                  x: 100,
                 }}
                 whileInView={{
                   x: 0,
