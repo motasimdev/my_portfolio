@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 
 const Portfolio = () => {
   return (
@@ -11,34 +11,32 @@ const Portfolio = () => {
         <div className="pt-[100px] h-[550px]  bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(80,134,143,1)_36%,rgba(58,119,129,1)_45%,rgba(39,106,117,1)_54%,rgba(28,98,110,1)_62%,rgba(21,93,105,1)_67%,rgba(11,86,99,1)_100%)]">
           <Container>
             <div className="">
-              <div className="text-center py-6 mb-[60px] bg-[radial-gradient(circle,rgba(23,102,114,1)_0%,rgba(54,122,133,1)_19%,rgba(70,132,143,1)_32%,rgba(83,141,151,1)_47%,rgba(116,163,171,1)_68%,rgba(153,187,193,1)_100%,rgba(255,255,255,1)_100%)]">
-                <h3 className="text-[#E0FFFE] font-semibold text-4xl text-center">
+              <div className="text-center py-3 lg:py-6 mb-[40px] lg:mb-[60px] bg-[radial-gradient(circle,rgba(23,102,114,1)_0%,rgba(54,122,133,1)_19%,rgba(70,132,143,1)_32%,rgba(83,141,151,1)_47%,rgba(116,163,171,1)_68%,rgba(153,187,193,1)_100%,rgba(255,255,255,1)_100%)]">
+                <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
                   Portfolio
                 </h3>
               </div>
+
               <Flex className="justify-between">
-
                 {/* project 1 */}
-
                 <motion.div
                   // ====animate=======
                   initial={{
                     rotateY: 120,
                   }}
                   whileInView={{
-                    rotateY:0,
+                    rotateY: 0,
                   }}
                   viewport={{
-                    once:false,
+                    once: false,
                   }}
                   transition={{
-                    duration:1,
+                    duration: 1,
                   }}
                   whileHover={{
-                    y:-4,
-                    transition:{duration:0.1}
+                    y: -4,
+                    transition: { duration: 0.1 },
                   }}
-
                   // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
@@ -74,19 +72,18 @@ const Portfolio = () => {
                     rotateY: 120,
                   }}
                   whileInView={{
-                    rotateY:0,
+                    rotateY: 0,
                   }}
                   viewport={{
-                    once:false,
+                    once: false,
                   }}
                   transition={{
-                    duration:1,
+                    duration: 1,
                   }}
                   whileHover={{
-                    y:-4,
-                    transition:{duration:0.1}
+                    y: -4,
+                    transition: { duration: 0.1 },
                   }}
-
                   // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
@@ -123,19 +120,18 @@ const Portfolio = () => {
                     rotateY: 120,
                   }}
                   whileInView={{
-                    rotateY:0,
+                    rotateY: 0,
                   }}
                   viewport={{
-                    once:false,
+                    once: false,
                   }}
                   transition={{
-                    duration:1,
+                    duration: 1,
                   }}
                   whileHover={{
-                    y:-4,
-                    transition:{duration:0.1}
+                    y: -4,
+                    transition: { duration: 0.1 },
                   }}
-
                   // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
@@ -172,19 +168,18 @@ const Portfolio = () => {
                     rotateY: 120,
                   }}
                   whileInView={{
-                    rotateY:0,
+                    rotateY: 0,
                   }}
                   viewport={{
-                    once:false,
+                    once: false,
                   }}
                   transition={{
-                    duration:1,
+                    duration: 1,
                   }}
                   whileHover={{
-                    y:-4,
-                    transition:{duration:0.1}
+                    y: -4,
+                    transition: { duration: 0.1 },
                   }}
-
                   // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
