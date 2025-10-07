@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
-import Image from "../Image";
 import { motion } from "motion/react";
 import Typed from "typed.js";
 

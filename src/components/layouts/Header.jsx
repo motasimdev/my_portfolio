@@ -132,34 +132,34 @@ const Header = () => {
                   </ul>
                 </div>
               </Flex> */}
-              <ul className="border-white/20 bg-black/15 backdrop-blur-[15px] text-center p-5 mt-2">
+              <ul className="border-white/20 bg-[#72C6CF]/15 backdrop-blur-[15px] text-center p-5 mt-2">
                 <a href="#banner">
-                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                  <li className=" text-primary font-medium text-sm py-1.5">
                     Home
                   </li>
                 </a>
                 <a href="#aboutMe">
-                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                  <li className=" text-primary font-medium text-sm py-1.5">
                     Shop
                   </li>
                 </a>
                 <a href="#skills">
-                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                  <li className=" text-primary font-medium text-sm py-1.5">
                     About
                   </li>
                 </a>
                 <a href="#service">
-                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                  <li className=" text-primary font-medium text-sm py-1.5">
                     Contact
                   </li>
                 </a>
                 <a href="#portfolio">
-                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                  <li className=" text-primary font-medium text-sm py-1.5">
                     Journal
                   </li>
                 </a>
                 <a href="#contact">
-                  <li className="hover:text-[#262626] text-[#767676] text-sm py-1.5">
+                  <li className=" text-primary font-medium text-sm py-1.5">
                     Journal
                   </li>
                 </a>
