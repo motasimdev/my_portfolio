@@ -29,25 +29,24 @@ const Banner = () => {
   }, []);
   return (
     <>
-      <section id="banner" className="bg-primary pt-[105px]">
-        <div className="bg-[#3B939D] pb-[90px] pt-[140px]">
+      <section id="banner" className="bg-primary pt-[20px] lg:pt-[105px]">
+        <div className="bg-[#3B939D] pb-[30px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
           <Container>
             <div className="relative">
               <Flex>
                 <div className="">
-                  <h3 className="font-semibold text-white text-[30px]">
+                  <h3 className="font-semibold text-center lg:text-left text-white text-[18px] lg:text-[30px]">
                     Hello,
                   </h3>
-                  <h2 className="font-semibold text-[#E0FFFE] text-[60px] py-1">
+                  <h2 className="font-semibold text-[#E0FFFE] text-[24px] lg:text-[60px] py-1 relative z-50 lg:z-0">
                     I am Motasim Billah
                   </h2>
                   <div className="App">
                     <span
                       ref={el}
-                      className="font-semibold text-[#E0FFFE] text-[40px]"
+                      className="font-semibold text-[#E0FFFE] text-sm lg:text-[40px]"
                     />
                   </div>
-                  .
                   <Flex className={"gap-x-5"}>
                     {/* ==================btn 1======== */}
                     <a href="">
@@ -67,7 +66,7 @@ const Banner = () => {
                     {/* ==================btn 1======== */}
 
                     {/* ==================btn 2======== */}
-                    
+
                     <div class="flex justify-center items-center mt-19">
                       <button
                         href="/"
@@ -116,10 +115,27 @@ const Banner = () => {
                       "https://res.cloudinary.com/dxihqxcjs/image/upload/c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg"
                     }
                     className={
-                      "absolute top-[-280px] right-[-30px] w-[560px] rounded-full z-40"
+                      "absolute top-[-170px] lg:top-[-280px] translate-x-1/2 lg:translate-x-0 right-1/2 lg:right-[-30px] w-[360px] lg:w-[560px] rounded-full z-40"
                     }
                   />
                 </div>
+                <motion.div
+                // ========animate=====
+                    initial={{
+                      y: -100,
+                    }}
+                    whileInView={{
+                      y: 0,
+                    }}
+                    viewport={{
+                      once: true,
+                    }}
+                    transition={{
+                      duration: 1.5,
+                    }}
+                    // ========animate=====
+                  className="absolute top-[-170px] lg:top-[-280px] right-1/2 lg:right-[-30px] translate-x-1/2 lg:translate-x-0 h-[480px] lg:h-0 w-[360px] lg:w-[560px] rounded-full bg-black/30 z-50 pointer-events-none"
+                ></motion.div>
               </Flex>
             </div>
           </Container>
