@@ -79,10 +79,10 @@ const Header = () => {
       </div>
 
       {/* ===========responsive=============== */}
-      <div className="lg:hidden">
+      <div className="py-5 px-3 lg:hidden">
         <Container>
           <div className="">
-            <div className="flex justify-between ">
+            <div className="flex justify-between">
               <button className="cursor-pointer" onClick={() => setMenu(!menu)}>
                 {menu ? <RxCross1 /> : <FaBars />}
               </button>

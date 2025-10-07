@@ -10,21 +10,24 @@ import Loader from "../Loader";
 
 const Home = () => {
   const { scrollYProgress } = useScroll();
-  const [Loading, setLoading] = useState(true);
+  const [loading, setloading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
+    const timer = setTimeout(() => setloading(false), 2000);
     return () => clearTimeout(timer);
   }, []);
   return (
     <>
       <motion.div
-        className="h-2 bg-[#E0FFFE] w-full origin-left fixed top-0 left-0 z-[100]"
+        className="hidden lg:block h-2 bg-[#E0FFFE] w-full origin-left fixed top-0 left-0 z-[100]"
         style={{
           scaleX: scrollYProgress,
         }}
+        initial={{
+          scaleX:0,
+        }}
       ></motion.div>
-      {Loading ? (
+      {loading ? (
         <Loader />
       ) : (
         <>
