@@ -38,7 +38,11 @@ const Header = () => {
             }`}
           >
             <Flex className="justify-between">
-              <div className="">logo</div>
+              <div className="">
+                <a href="">
+                  <img src="/src/assets/my logo.png" alt="" className="w-[20px]"/>
+                </a>
+              </div>
               <div className="">
                 <ul className="flex items-center gap-x-6">
                   <a href="#banner">
