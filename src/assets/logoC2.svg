@@ -1,0 +1,12 @@
+<svg width="86" height="101" viewBox="0 0 86 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="41.2906" cy="41.2906" r="39.7906" stroke="black" stroke-width="3"/>
+<line x1="13.6817" y1="29.1166" x2="13.3162" y2="100.201" stroke="black" stroke-width="3"/>
+<line x1="70.334" y1="29.1655" x2="69.9685" y2="100.25" stroke="black" stroke-width="3"/>
+<line x1="13.7817" y1="29.7589" x2="42.6807" y2="74.1973" stroke="black" stroke-width="3"/>
+<line y1="-1.5" x2="53.0087" y2="-1.5" transform="matrix(-0.545175 0.838322 0.838322 0.545175 70.8746 30.5277)" stroke="black" stroke-width="3"/>
+<line x1="26.4153" y1="48.4989" x2="56.8969" y2="48.4989" stroke="black" stroke-width="3"/>
+<line x1="3.0332" y1="27.6578" x2="22.7001" y2="27.6578" stroke="black" stroke-width="3"/>
+<line x1="3.16554" y1="98.7423" x2="22.8324" y2="98.7423" stroke="black" stroke-width="3"/>
+<line x1="41.6589" y1="70.6389" x2="41.6589" y2="2.26608" stroke="black" stroke-width="3"/>
+<path d="M77 41.4999C63 39.5 61 52.4999 61 52.4999C61 52.4999 56.8 65.8999 74 71.4999C91.2 77.0999 83.7945 93.975 73 98C68.975 99.5009 62 99 62 99" stroke="black" stroke-width="3"/>
+</svg>

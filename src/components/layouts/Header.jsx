@@ -4,6 +4,8 @@ import Flex from "../Flex";
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import Image from "../Image";
+import MyLogo from "../MyLogo";
+import MyName from "../MyName";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -40,7 +42,12 @@ const Header = () => {
             <Flex className="justify-between">
               <div className="">
                 <a href="">
-                  <img src="/src/assets/my logo.png" alt="" className="w-[20px]"/>
+                  <div className="flex items-center gap-x-3">
+                    <MyLogo/>
+                    <MyName/>
+                   {/* <img src="/src/assets/myLogoFinal.svg" alt="" className="w-6"/> */}
+                    {/* <img src="/src/assets/myname.png" alt="" className="w-[200px]" /> */}
+                  </div>
                 </a>
               </div>
               <div className="">
@@ -88,7 +95,11 @@ const Header = () => {
           <div className="">
             <div className="flex justify-between">
               <button className="cursor-pointer" onClick={() => setMenu(!menu)}>
-                {menu ? <RxCross1 className="text-[#E0FFFE]"/> : <FaBars className="text-[#E0FFFE]"/>}
+                {menu ? (
+                  <RxCross1 className="text-[#E0FFFE]" />
+                ) : (
+                  <FaBars className="text-[#E0FFFE]" />
+                )}
               </button>
               <a href="" className="text-[#E0FFFE] font-bold">
                 {/* <Image src={"logo"} alt={"logo"} className={""} /> */}
