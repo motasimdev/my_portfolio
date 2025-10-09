@@ -5,6 +5,7 @@ import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import MyName from "../MyName";
 import Mylogo4 from "../Mylogo4";
+import logo from "/src/assets/logo5.png"
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -99,7 +100,7 @@ const Header = () => {
                 )}
               </button>
               <a href="" className="text-[#E0FFFE] font-bold">
-                <img src="/src/assets/logo5.png" alt="" className="w-10"/>
+                <img src={logo} alt="Motasim Billah Logo" className="w-10"/>
                 
               </a>
             </div>
