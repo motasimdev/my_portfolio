@@ -99,7 +99,7 @@ const Header = () => {
                 )}
               </button>
               <a href="" className="text-[#E0FFFE] font-bold">
-                <img src="/src/assets/logo5.png" alt="" className="w-7"/>
+                <img src="/src/assets/logo5.png" alt="" className="w-10"/>
                 
               </a>
             </div>
