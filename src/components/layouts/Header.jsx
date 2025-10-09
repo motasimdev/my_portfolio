@@ -3,9 +3,8 @@ import Container from "../Container";
 import Flex from "../Flex";
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
-import Image from "../Image";
-import MyLogo from "../MyLogo";
 import MyName from "../MyName";
+import Mylogo4 from "../Mylogo4";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -40,13 +39,11 @@ const Header = () => {
             }`}
           >
             <Flex className="justify-between">
-              <div className="">
+              <div className="bg-[#0b5663] py-0.5 px-2 rounded-lg">
                 <a href="">
                   <div className="flex items-center gap-x-3">
-                    <MyLogo/>
+                    <Mylogo4/>
                     <MyName/>
-                   {/* <img src="/src/assets/myLogoFinal.svg" alt="" className="w-6"/> */}
-                    {/* <img src="/src/assets/myname.png" alt="" className="w-[200px]" /> */}
                   </div>
                 </a>
               </div>
@@ -102,8 +99,8 @@ const Header = () => {
                 )}
               </button>
               <a href="" className="text-[#E0FFFE] font-bold">
-                {/* <Image src={"logo"} alt={"logo"} className={""} /> */}
-                logo
+                <img src="/src/assets/logo5.png" alt="" className="w-7"/>
+                
               </a>
             </div>
             <div
