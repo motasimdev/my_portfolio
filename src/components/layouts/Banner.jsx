@@ -35,7 +35,7 @@ const Banner = () => {
             <Container>
               <div className="relative">
                 <Flex>
-                  <div className="">
+                  <div className="w-[50%]">
                     <h3 className="font-semibold text-white text-[18px] lg:text-[30px] relative z-60">
                       Hello,
                     </h3>
@@ -95,7 +95,34 @@ const Banner = () => {
                       {/* ==================btn 2======== */}
                     </Flex>
                   </div>
-                  <div className="">
+                  <motion.div
+                    className="w-[50%] relative"
+                    // ========animate=====
+                    initial={{
+                      y: -200,
+                    }}
+                    whileInView={{
+                      y: 0,
+                    }}
+                    viewport={{
+                      once: true,
+                    }}
+                    transition={{
+                      duration: 1.5,
+                    }}
+                    // ========animate=====
+                  >
+                    <div className="flex justify-center after:content-'' after:absolute after:-top-40 after:left-[50%] after:-translate-x-1/2 after:w-[410px] after:h-[610px] after:bg-[#0b5663] -z-100">
+                      <picture>
+                        <img
+                          src="https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1763658520/image3_qtcau4_c9efce.jpg"
+                          alt=""
+                          className="rounded-2xl relative z-1"
+                        />
+                      </picture>
+                    </div>
+                  </motion.div>
+                  {/* <div className="">
                     <motion.img
                       // ========animate=====
                       initial={{
@@ -111,7 +138,6 @@ const Banner = () => {
                         duration: 1.5,
                       }}
                       // ========animate=====
-
                       src={
                         "https://res.cloudinary.com/dxihqxcjs/image/upload/c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg"
                       }
@@ -119,8 +145,8 @@ const Banner = () => {
                         "hidden lg:block absolute top-[-170px] lg:top-[-280px] translate-x-1/2 lg:translate-x-0 right-1/2 lg:right-[-30px] w-[360px] lg:w-[560px] rounded-full z-40"
                       }
                     />
-                  </div>
-                  <motion.div
+                  </div> */}
+                  {/* <motion.div
                     // ========animate=====
                     initial={{
                       y: -100,
@@ -136,7 +162,7 @@ const Banner = () => {
                     }}
                     // ========animate=====
                     className="hidden absolute top-[-170px] lg:top-[-280px] right-1/2 lg:right-[-30px] translate-x-1/2 lg:translate-x-0 h-[480px] lg:h-0 w-[360px] lg:w-[560px] rounded-full bg-black/30 z-50 pointer-events-none"
-                  ></motion.div>
+                  ></motion.div> */}
                 </Flex>
               </div>
             </Container>

@@ -43,8 +43,11 @@ const Header = () => {
               <div className="bg-[#0b5663] py-0.5 px-2 rounded-lg">
                 <a href="">
                   <div className="flex items-center gap-x-3">
-                    <Mylogo4/>
-                    <MyName/>
+                    <picture>
+                      <img src="https://res.cloudinary.com/dxihqxcjs/image/upload/v1762454390/logo5_modofu.png" alt="" className="w-[30px]"/>
+                    </picture>
+                    {/* <Mylogo4/> */}
+                    {/* <MyName/> */}
                   </div>
                 </a>
               </div>
@@ -145,7 +148,6 @@ const Header = () => {
           </div>
         </Container>
       </div>
-
       {/* ===========responsive=============== */}
     </>
   );
