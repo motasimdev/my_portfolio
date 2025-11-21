@@ -43,7 +43,7 @@ const Portfolio = () => {
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <img
-                    src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto,w_600/orebi_ws4jqk.png"
+                    src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/orebi_ws4jqk.png"
                     alt="portfolio"
                     className={"w-[200px] h-[400px]"}
                   />

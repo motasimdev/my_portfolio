@@ -3,6 +3,7 @@ import Container from "../Container";
 import Flex from "../Flex";
 import { motion } from "motion/react";
 import Typed from "typed.js";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   // Create reference to store the DOM element containing the animation
@@ -30,12 +31,12 @@ const Banner = () => {
   return (
     <>
       <section id="banner" className="bg-primary pt-[0px] lg:pt-[105px]">
-        <div className="bg-[url(https://res.cloudinary.com/dxihqxcjs/image/upload/c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg)] bg-no-repeat bg-center bg-cover">
+        <div className="bg-[url(https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1763658520/image3_qtcau4_c9efce.jpg)] bg-no-repeat bg-center bg-cover">
           <div className="lg:bg-[#3B939D] bg-black/50 pb-[75px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
             <Container>
               <div className="relative">
                 <Flex>
-                  <div className="w-[50%]">
+                  <div className="lg:w-[50%]">
                     <h3 className="font-semibold text-white text-[18px] lg:text-[30px] relative z-60">
                       Hello,
                     </h3>
@@ -50,8 +51,8 @@ const Banner = () => {
                     </div>
                     <Flex className={"gap-x-5 mt-12 lg:mt-0"}>
                       {/* ==================btn 1======== */}
-                      <a href="">
-                        <button class="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-60">
+                      <Link to={"/"}>
+                        <button class="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-40">
                           <span class="absolute top-0 right-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
                             <span class="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                           </span>
@@ -63,15 +64,15 @@ const Banner = () => {
                             Get my CV
                           </span>
                         </button>
-                      </a>
+                      </Link>
                       {/* ==================btn 1======== */}
 
                       {/* ==================btn 2======== */}
 
                       <div class="flex justify-center items-center lg:mt-19">
-                        <button
-                          href="/"
-                          class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to-[#72C6CF] lg:to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover: hover: cursor-pointer relative z-60"
+                        <Link
+                        to={"/"}
+                          class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to-[#72C6CF] lg:to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover: hover: cursor-pointer relative z-40"
                         >
                           <svg
                             class="w-4.5 lg:w-7"
@@ -89,14 +90,14 @@ const Banner = () => {
                           <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-400">
                             GitHub
                           </span>
-                        </button>
+                        </Link>
                       </div>
 
                       {/* ==================btn 2======== */}
                     </Flex>
                   </div>
                   <motion.div
-                    className="w-[50%] relative"
+                    className="lg:w-[50%] relative hidden lg:block"
                     // ========animate=====
                     initial={{
                       y: -200,

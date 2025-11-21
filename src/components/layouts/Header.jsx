@@ -6,6 +6,7 @@ import { RxCross1 } from "react-icons/rx";
 import MyName from "../MyName";
 import Mylogo4 from "../Mylogo4";
 import logo from "/src/assets/logo5.png"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -35,16 +36,16 @@ const Header = () => {
       >
         <Container>
           <div
-            className={`py-3 px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-50 ${
+            className={` px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-50 ${
               sticky ? "bg-teal-300 shadow-lg" : "bg-transparent"
             }`}
           >
             <Flex className="justify-between">
-              <div className="bg-[#0b5663] py-0.5 px-2 rounded-lg">
-                <a href="">
-                  <div className="flex items-center gap-x-3">
+              <div className="bg-[#] px-2 rounded-lg">
+                <a href="#banner">
+                  <div className="flex py-1 items-center gap-x-3">
                     <picture>
-                      <img src="https://res.cloudinary.com/dxihqxcjs/image/upload/v1762454390/logo5_modofu.png" alt="" className="w-[30px]"/>
+                      <img src="https://res.cloudinary.com/dxihqxcjs/image/upload/v1763727300/logoWhiteType_umu7xh.svg" alt="" className="w-16"/>
                     </picture>
                     {/* <Mylogo4/> */}
                     {/* <MyName/> */}
@@ -91,7 +92,7 @@ const Header = () => {
       </div>
 
       {/* ===========responsive=============== */}
-      <div className="py-3 px-3 lg:hidden bg-primary">
+      <div className="py-1.5 px-3 lg:hidden bg-primary">
         <Container>
           <div className="">
             <div className="flex justify-between">
@@ -102,10 +103,10 @@ const Header = () => {
                   <FaBars className="text-[#E0FFFE]" />
                 )}
               </button>
-              <a href="" className="text-[#E0FFFE] font-bold">
-                <img src={logo} alt="Motasim Billah Logo" className="w-10"/>
+              <Link to={"/"} className="text-[#E0FFFE] font-bold">
+                <img src={"https://res.cloudinary.com/dxihqxcjs/image/upload/v1763727300/logoWhiteType_umu7xh.svg"} alt="Motasim Billah Logo" className="w-15"/>
                 
-              </a>
+              </Link>
             </div>
             <div
               className={`overflow-hidden transition-all duration-500 ease-in-out
