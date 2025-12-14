@@ -13,7 +13,7 @@ const Header = () => {
     const handleScroll = () => {
       const y = window.scrollY;
 
-      if (y > 50 && y < 500) {
+      if (y > 50 && y < 300) {
         setSticky(false);
       } else {
         setSticky(true);
@@ -33,7 +33,7 @@ const Header = () => {
       >
         <Container>
           <div
-            className={` px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-50 ${
+            className={` px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-1000 ${
               sticky ? "bg-teal-300 shadow-lg" : "bg-transparent"
             }`}
           >

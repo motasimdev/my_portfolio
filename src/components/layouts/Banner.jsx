@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import { motion } from "motion/react";
@@ -6,6 +6,7 @@ import Typed from "typed.js";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
+  const [imgLoaded, setImgLoaded] = useState(false);
   // Create reference to store the DOM element containing the animation
   const el = React.useRef(null);
 
@@ -118,14 +119,22 @@ const Banner = () => {
                     // ========animate=====
                   >
                     <div className="relative">
-                      <div className="flex justify-center absolute -top-100 left-[50%] -translate-x-1/2 w-[410px] pt-[200px] pb-[60px] bg-[#0b5663]">
-                        <picture>
+                      <div className="ml-auto flex justify-center absolute -top-105 w-[410px] pt-[200px] pb-[60px] bg-[#0b5663]">
+                        <div className="h-[400px] w-[300px]">
+                          {!imgLoaded && (
+                            <div className="w-full h-full flex justify-center items-center">
+                              <div className="loader border-4 border-t-4 border-gray-200 rounded-full w-12 h-12 animate-spin"></div>
+                            </div>
+                          )}
                           <img
                             src="https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1765732563/IMG-20250403-WA001_jhgiof.jpg"
                             alt=""
-                            className="rounded-2xl relative z-1"
+                            className={`rounded-2xl w-full h-full object-cover ${
+                              imgLoaded ? "opacity-100" : "opacity-0"
+                            }`}
+                            onLoad={() => setImgLoaded(true)}
                           />
-                        </picture>
+                        </div>
                       </div>
                     </div>
                   </motion.div>

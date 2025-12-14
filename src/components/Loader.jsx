@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import logo from "/src/assets/logo4.png";
 
 const Loader = () => {
   return (
@@ -8,14 +9,14 @@ const Loader = () => {
         {/* Logo Animation */}
         <motion.div
           initial={{ scale: 0, rotate: 0, opacity: 0 }}
-          animate={{ scale: 1, rotate: 360, opacity: 1 }}
+          animate={{ scale: 1, opacity: 1 }}
           transition={{
             duration: 1.5,
             repeat: Infinity,
             repeatType: "reverse",
             ease: "easeInOut",
           }}
-          className="w-24 h-24 border-4 border-[#00FFF0] rounded-full flex justify-center items-center"
+          className=""
         >
           <motion.span
             initial={{ opacity: 0 }}
@@ -27,8 +28,7 @@ const Loader = () => {
             }}
             className="text-[#00FFF0] font-bold text-lg"
           >
-            MB
-            {/* <motion.img src="" alt="" /> */}
+            <motion.img src={logo} alt="" />
           </motion.span>
         </motion.div>
 
@@ -43,7 +43,7 @@ const Loader = () => {
             repeatType: "reverse",
           }}
         >
-          Loading...
+          Just Start...
         </motion.p>
       </div>
     </>
