@@ -30,7 +30,7 @@ const Banner = () => {
   }, []);
   return (
     <>
-      <section id="banner" className="bg-primary pt-[0px] lg:pt-[105px]">
+      <section id="banner" className="bg-primary pt-0 lg:pt-[105px]">
         <div className="bg-[url(https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1763658520/image3_qtcau4_c9efce.jpg)] bg-no-repeat bg-center bg-cover">
           <div className="lg:bg-[#3B939D] bg-black/50 pb-[75px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
             <Container>
@@ -51,7 +51,11 @@ const Banner = () => {
                     </div>
                     <Flex className={"gap-x-5 mt-12 lg:mt-0"}>
                       {/* ==================btn 1======== */}
-                      <Link to={"/"}>
+                      <Link
+                        to={
+                          "https://drive.google.com/file/d/1OTxbO1i-rKoXKcnWoD4SiwcGzLhxMZLQ/view?usp=drive_link"
+                        }
+                      >
                         <button class="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-40">
                           <span class="absolute top-0 right-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
                             <span class="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
@@ -71,7 +75,7 @@ const Banner = () => {
 
                       <div class="flex justify-center items-center lg:mt-19">
                         <Link
-                        to={"/"}
+                          to={"https://github.com/motasimdev"}
                           class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to-[#72C6CF] lg:to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover: hover: cursor-pointer relative z-40"
                         >
                           <svg
@@ -97,7 +101,7 @@ const Banner = () => {
                     </Flex>
                   </div>
                   <motion.div
-                    className="lg:w-[50%] relative hidden lg:block"
+                    className="lg:w-[50%] hidden lg:block"
                     // ========animate=====
                     initial={{
                       y: -200,
@@ -113,14 +117,16 @@ const Banner = () => {
                     }}
                     // ========animate=====
                   >
-                    <div className="flex justify-center after:content-'' after:absolute after:-top-40 after:left-[50%] after:-translate-x-1/2 after:w-[410px] after:h-[610px] after:bg-[#0b5663] -z-100">
-                      <picture>
-                        <img
-                          src="https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1763658520/image3_qtcau4_c9efce.jpg"
-                          alt=""
-                          className="rounded-2xl relative z-1"
-                        />
-                      </picture>
+                    <div className="relative">
+                      <div className="flex justify-center absolute -top-100 left-[50%] -translate-x-1/2 w-[410px] pt-[200px] pb-[60px] bg-[#0b5663]">
+                        <picture>
+                          <img
+                            src="https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1765732563/IMG-20250403-WA001_jhgiof.jpg"
+                            alt=""
+                            className="rounded-2xl relative z-1"
+                          />
+                        </picture>
+                      </div>
                     </div>
                   </motion.div>
                   {/* <div className="">

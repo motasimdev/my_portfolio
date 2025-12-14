@@ -3,9 +3,6 @@ import Container from "../Container";
 import Flex from "../Flex";
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
-import MyName from "../MyName";
-import Mylogo4 from "../Mylogo4";
-import logo from "/src/assets/logo5.png"
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -92,7 +89,7 @@ const Header = () => {
       </div>
 
       {/* ===========responsive=============== */}
-      <div className="py-1.5 px-3 lg:hidden bg-primary">
+      <div className="py-1.5 px-3 lg:hidden fixed w-full border border-white/20 bg-white/15 backdrop-blur-[15px] z-100">
         <Container>
           <div className="">
             <div className="flex justify-between">
