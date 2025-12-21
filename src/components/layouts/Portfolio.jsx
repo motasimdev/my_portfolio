@@ -188,7 +188,8 @@ const Portfolio = () => {
                 >
                   <img
                     src={
-                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/uomo_yxt047.png"
+                      "https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/v1766285129/e9eaae60-fd3e-4c28-9096-1b72b4cbaf80_yh5xuf.png"
+                      
                     }
                     className={"w-[200px] h-[400px]"}
                     alt="portfolio"
