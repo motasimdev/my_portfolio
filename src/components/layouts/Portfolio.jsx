@@ -4,6 +4,7 @@ import Flex from "../Flex";
 import Image from "../Image";
 import { motion } from "motion/react";
 import Slider from "../Slider";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -17,7 +18,7 @@ const Portfolio = () => {
                   Portfolio
                 </h3>
               </div>
-              <Slider/>
+              <Slider />
 
               <div className="hidden lg:flex items-center justify-between">
                 {/* project 1 */}
@@ -49,20 +50,20 @@ const Portfolio = () => {
                   />
 
                   <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-[#0000005f] absolute top-0 left-0 w-[220px] h-[420px] flex flex-col items-center justify-center gap-y-2">
-                    <a
-                      href=""
-                      target="_"
+                    <Link
+                      to={"https://ummah-lyart.vercel.app/"}
+                      target="blank"
                       className="py-3 px-4 text-white hover:text-primary border transform translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       view project
-                    </a>
-                    <a
-                      href=""
-                      target="_"
+                    </Link>
+                    <Link
+                      to={"https://ummah-lyart.vercel.app/"}
+                      target="blank"
                       className="py-3 px-4 text-white hover:text-primary border transform -translate-x-[50px] group-hover:translate-x-0 transition-all duration-300 ease-in-out"
                     >
                       source code
-                    </a>
+                    </Link>
                   </div>
                 </motion.div>
                 {/* project 1 */}

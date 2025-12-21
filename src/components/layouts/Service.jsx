@@ -29,7 +29,7 @@ const Service = () => {
                 >
                   <LiaTvSolid className="m-auto text-4xl lg:text-6xl text-white" />
                   <h3 className="text-center text-xl lg:text-2xl text-[#E0FFFE] py-5">
-                    Web Design
+                    Frontend Development
                   </h3>
                   <p className="text-white text-[13px] lg:text-base text-justify leading-[32px]">
                     I create modern, responsive, and visually appealing website

@@ -119,7 +119,7 @@ const Banner = () => {
                     // ========animate=====
                   >
                     <div className="relative">
-                      <div className="ml-auto flex justify-center absolute -top-105 w-[410px] pt-[200px] pb-[60px] bg-[#0b5663]">
+                      <div className="flex justify-center absolute -top-105 w-[410px] pt-[200px] pb-[60px] bg-[#0b5663]">
                         <div className="h-[400px] w-[300px]">
                           {!imgLoaded && (
                             <div className="w-full h-full flex justify-center items-center">
