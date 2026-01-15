@@ -40,8 +40,8 @@ const Portfolio = () => {
                     y: -4,
                     transition: { duration: 0.1 },
                   }}
-                  // ====animate=======
                   className="group relative w-[220px] h-[420px] border border-white/20 bg-black/15 backdrop-blur-[15px] flex justify-center items-center shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                  // ====animate=======
                 >
                   <img
                     src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/orebi_ws4jqk.png"

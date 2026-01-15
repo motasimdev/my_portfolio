@@ -33,10 +33,10 @@ const Banner = () => {
     <>
       <section id="banner" className="bg-primary pt-0 lg:pt-[105px]">
         <div className="bg-[url(https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1763658520/image3_qtcau4_c9efce.jpg)] bg-no-repeat bg-center bg-cover">
-          <div className="lg:bg-[#3B939D] bg-black/50 pb-[75px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
+          <div className="md:bg-[#3B939D] bg-black/50 pb-[75px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
             <Container>
               <div className="relative">
-                <Flex>
+                <Flex className={"md:justify-between"}>
                   <div className="lg:w-[50%]">
                     <h3 className="font-semibold text-white text-[18px] lg:text-[30px] relative z-60">
                       Hello,
@@ -54,8 +54,9 @@ const Banner = () => {
                       {/* ==================btn 1======== */}
                       <Link
                         to={
-                          "https://drive.google.com/file/d/1OTxbO1i-rKoXKcnWoD4SiwcGzLhxMZLQ/view?usp=drive_link"
+                          "https://drive.google.com/file/d/1mvHxuyrjXx3-JkzFjxd6yw6uSoF_SIQJ/view?usp=drive_link"
                         }
+                        target="_blank"
                       >
                         <button className="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-40">
                           <span className="absolute top-0 right-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
@@ -77,6 +78,7 @@ const Banner = () => {
                       <div className="flex justify-center items-center lg:mt-19">
                         <Link
                           to={"https://github.com/motasimdev"}
+                          target="_blank"
                           className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to-[#72C6CF] lg:to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover: hover: cursor-pointer relative z-40"
                         >
                           <svg
@@ -98,11 +100,11 @@ const Banner = () => {
                         </Link>
                       </div>
 
-                      {/* ==================btn 2======== */}
+                      {/* ==================btn 2 end======== */}
                     </Flex>
                   </div>
                   <motion.div
-                    className="lg:w-[50%] hidden lg:block"
+                    className="lg:w-[50%] hidden md:block"
                     // ========animate=====
                     initial={{
                       y: -200,

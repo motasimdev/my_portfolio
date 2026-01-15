@@ -7,6 +7,7 @@ import Portfolio from "../layouts/Portfolio";
 import Contact from "../layouts/Contact";
 import { motion, useScroll } from "motion/react";
 import Loader from "../Loader";
+import Portfolioo from "../layouts/Portfolioo";
 
 const Home = () => {
   const { scrollYProgress } = useScroll();
@@ -35,7 +36,8 @@ const Home = () => {
           <About />
           <Skills />
           <Service />
-          <Portfolio />
+          {/* <Portfolio /> */}
+          <Portfolioo/>
           <Contact />
         </>
       )}

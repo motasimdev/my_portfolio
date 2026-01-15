@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import { easeIn, easeInOut, easeOut, motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -62,21 +63,28 @@ const About = () => {
                 with jQuery plugins and focused on modern front-end development
                 practices.
               </p>
-              <Flex className="justify-center gap-x-6 pt-9">
-                <button className="hidden lg:block cursor-pointer font-semibold overflow-hidden relative bg-black/15 backdrop-blur-[15px] border-[#72C6CF] group px-4 lg:px-8 py-3 lg:py-3">
-                  <span className="relative z-10 text-primary group-hover:text-white text-md duration-500">
-                    Download CV
-                  </span>
-                  <span className="absolute w-full h-full bg-primary -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
-                  <span className="absolute w-full h-full bg-primary -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500"></span>
-                </button>
+              <Link
+                to={
+                  "https://drive.google.com/file/d/1mvHxuyrjXx3-JkzFjxd6yw6uSoF_SIQJ/view?usp=drive_link"
+                }
+                target="_blank"
+              >
+                <Flex className="justify-center gap-x-6 pt-9">
+                  <button className="hidden lg:block cursor-pointer font-semibold overflow-hidden relative bg-black/15 backdrop-blur-[15px] border-[#72C6CF] group px-4 lg:px-8 py-3 lg:py-3">
+                    <span className="relative z-10 text-primary group-hover:text-white text-md duration-500">
+                      Get my CV
+                    </span>
+                    <span className="absolute w-full h-full bg-primary -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
+                    <span className="absolute w-full h-full bg-primary -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500"></span>
+                  </button>
 
-                <button className="lg:hidden group flex h-fit w-fit flex-col items-center justify-center rounded-full bg-[#72C6CF] px-[2em] py-[0.5em] shadow-[inset_0px_0px_0px_0px_#0B5663,inset_0px_0px_1px_0px_#0B5663,0px_0px_4px_0px_#0B5663,0px_2px_4px_0px_#0B5663] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_#0B5663,inset_0px_2px_4px_0px_#0B5663,0px_2px_16px_0px_#0B5663,0px_2px_16px_0px_#0B5663]">
-                  <p className="font-nunito text-sm font-medium text-primary duration-200 group-active:translate-y-[5%]">
-                    Get my CV
-                  </p>
-                </button>
-              </Flex>
+                  <button className="lg:hidden group flex h-fit w-fit flex-col items-center justify-center rounded-full bg-[#72C6CF] px-[2em] py-[0.5em] shadow-[inset_0px_0px_0px_0px_#0B5663,inset_0px_0px_1px_0px_#0B5663,0px_0px_4px_0px_#0B5663,0px_2px_4px_0px_#0B5663] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_#0B5663,inset_0px_2px_4px_0px_#0B5663,0px_2px_16px_0px_#0B5663,0px_2px_16px_0px_#0B5663]">
+                    <p className="font-nunito text-sm font-medium text-primary duration-200 group-active:translate-y-[5%]">
+                      Get my CV
+                    </p>
+                  </button>
+                </Flex>
+              </Link>
             </div>
           </div>
         </Container>
