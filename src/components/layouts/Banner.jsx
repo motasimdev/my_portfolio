@@ -42,7 +42,7 @@ const Banner = () => {
                       Hello,
                     </h3>
                     <h2 className="font-semibold text-[#E0FFFE] text-[34px] lg:text-[60px] py-1 relative z-60 lg:z-0">
-                      I am Motasim Billah
+                      It's Motasim Billah
                     </h2>
                     <div className="">
                       <span
@@ -57,15 +57,15 @@ const Banner = () => {
                           "https://drive.google.com/file/d/1OTxbO1i-rKoXKcnWoD4SiwcGzLhxMZLQ/view?usp=drive_link"
                         }
                       >
-                        <button class="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-40">
-                          <span class="absolute top-0 right-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
-                            <span class="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                        <button className="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-40">
+                          <span className="absolute top-0 right-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
+                            <span className="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                           </span>
-                          <span class="absolute bottom-0 rotate-180 left-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-ml-4 group-hover:-mb-4">
-                            <span class="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+                          <span className="absolute bottom-0 rotate-180 left-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-ml-4 group-hover:-mb-4">
+                            <span className="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                           </span>
-                          <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-primary rounded-md group-hover:translate-x-0"></span>
-                          <span class="relative w-full text-left text-primary transition-colors duration-200 ease-in-out group-hover:text-[#E0FFFE] font-medium lg:font-bold text-[12px] lg:text-[16px]">
+                          <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-primary rounded-md group-hover:translate-x-0"></span>
+                          <span className="relative w-full text-left text-primary transition-colors duration-200 ease-in-out group-hover:text-[#E0FFFE] font-medium lg:font-bold text-[12px] lg:text-[16px]">
                             Get my CV
                           </span>
                         </button>
@@ -74,13 +74,13 @@ const Banner = () => {
 
                       {/* ==================btn 2======== */}
 
-                      <div class="flex justify-center items-center lg:mt-19">
+                      <div className="flex justify-center items-center lg:mt-19">
                         <Link
                           to={"https://github.com/motasimdev"}
-                          class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to-[#72C6CF] lg:to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover: hover: cursor-pointer relative z-40"
+                          className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-primary to-[#72C6CF] lg:to- text-white font-semibold hover:translate-y-1 transition-all duration-300 hover: hover: cursor-pointer relative z-40"
                         >
                           <svg
-                            class="w-4.5 lg:w-7"
+                            className="w-4.5 lg:w-7"
                             viewBox="0 0 15 15"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ const Banner = () => {
                               clip-rule="evenodd"
                             ></path>
                           </svg>
-                          <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-400">
+                          <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-400">
                             GitHub
                           </span>
                         </Link>

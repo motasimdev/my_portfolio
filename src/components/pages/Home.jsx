@@ -24,7 +24,7 @@ const Home = () => {
           scaleX: scrollYProgress,
         }}
         initial={{
-          scaleX:0,
+          scaleX: 0,
         }}
       ></motion.div>
       {loading ? (

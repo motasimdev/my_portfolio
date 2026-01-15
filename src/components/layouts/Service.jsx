@@ -18,7 +18,11 @@ const Service = () => {
                   My Services
                 </h3>
               </div>
-              <div className={"flex flex-col gap-y-1 lg:flex-row items-center justify-between"}>
+              <div
+                className={
+                  "flex flex-col gap-y-1 lg:flex-row items-center justify-between"
+                }
+              >
                 {/* =================1============== */}
                 <motion.div
                   initial={{ scale: 0.5, opacity: 0 }}

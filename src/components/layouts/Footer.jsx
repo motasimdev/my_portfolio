@@ -15,7 +15,10 @@ const Footer = () => {
       <div className="bg-primary py-10">
         <Container>
           <div className="text-center">
-            <h4 className="text-white font-medium text-[13px] lg:text-lg pb-3">© 2025 All rights reserved | Designed & Developed by Motasim Billah</h4>
+            <h4 className="text-white font-medium text-[13px] lg:text-lg pb-3">
+              © 2025 All rights reserved | Designed & Developed by Motasim
+              Billah
+            </h4>
             <Flex className={"gap-x-4 justify-center"}>
               <a href="">
                 <AiOutlineFacebook className="text-[#6ec1be] hover:text-[#E0FFFE] transition-all duration-200 text-2xl" />

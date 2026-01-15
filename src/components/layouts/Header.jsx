@@ -42,7 +42,11 @@ const Header = () => {
                 <a href="#banner">
                   <div className="flex py-1 items-center gap-x-3">
                     <picture>
-                      <img src="https://res.cloudinary.com/dxihqxcjs/image/upload/v1763727300/logoWhiteType_umu7xh.svg" alt="" className="w-16"/>
+                      <img
+                        src="https://res.cloudinary.com/dxihqxcjs/image/upload/v1763727300/logoWhiteType_umu7xh.svg"
+                        alt=""
+                        className="w-16"
+                      />
                     </picture>
                     {/* <Mylogo4/> */}
                     {/* <MyName/> */}
@@ -57,7 +61,7 @@ const Header = () => {
                     </li>
                   </a>
                   <a href="#aboutMe" className="scroll-smooth">
-                    <li className="text-base font-medium text-primary hover:text-white transition-all duration-300">
+                    <li className="text-base font-medium text-[#0b5663] hover:text-white transition-all duration-300">
                       About me
                     </li>
                   </a>
@@ -101,8 +105,13 @@ const Header = () => {
                 )}
               </button>
               <Link to={"/"} className="text-[#E0FFFE] font-bold">
-                <img src={"https://res.cloudinary.com/dxihqxcjs/image/upload/v1763727300/logoWhiteType_umu7xh.svg"} alt="Motasim Billah Logo" className="w-15"/>
-                
+                <img
+                  src={
+                    "https://res.cloudinary.com/dxihqxcjs/image/upload/v1763727300/logoWhiteType_umu7xh.svg"
+                  }
+                  alt="Motasim Billah Logo"
+                  className="w-15"
+                />
               </Link>
             </div>
             <div
