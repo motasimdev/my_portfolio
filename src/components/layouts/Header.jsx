@@ -33,7 +33,7 @@ const Header = () => {
       >
         <Container>
           <div
-            className={` px-12 border border-white/20 bg-white/15 backdrop-blur-[15px] rounded-full relative z-1000 ${
+            className={`px-12 border border-white/15 bg-white/10 backdrop-blur-[3px] rounded-full relative z-1000 ${
               sticky ? "bg-teal-300 shadow-lg" : "bg-transparent"
             }`}
           >
@@ -93,7 +93,7 @@ const Header = () => {
       </div>
 
       {/* ===========responsive=============== */}
-      <div className="py-1.5 px-3 lg:hidden fixed w-full border border-white/20 bg-white/15 backdrop-blur-[15px] z-100">
+      <div className="py-1.5 px-3 lg:hidden fixed w-full border border-white/20 bg-white/10 backdrop-blur-[3px] z-100">
         <Container>
           <div className="">
             <div className="flex justify-between">

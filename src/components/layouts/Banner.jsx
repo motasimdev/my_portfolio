@@ -32,7 +32,7 @@ const Banner = () => {
   return (
     <>
       <section id="banner" className="bg-primary pt-0 lg:pt-[105px]">
-        <div className="bg-[url(https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1763658520/image3_qtcau4_c9efce.jpg)] bg-no-repeat bg-center bg-cover">
+        <div className="bg-[url(https://res.cloudinary.com/dxihqxcjs/image/upload/w_400,h_400,c_fit,q_90,f_auto/v1765732563/IMG-20250403-WA001_jhgiof.jpg)] bg-no-repeat bg-center bg-cover">
           <div className="md:bg-[#3B939D] bg-black/50 pb-[75px] lg:pb-[100px] pt-[140px] lg:pt-[140px] px-3 lg:px-0">
             <Container>
               <div className="relative">
@@ -104,7 +104,7 @@ const Banner = () => {
                     </Flex>
                   </div>
                   <motion.div
-                    className="lg:w-[50%] hidden md:block"
+                    className="md:w-[48%] lg:w-[40%] hidden md:block"
                     // ========animate=====
                     initial={{
                       y: -200,
