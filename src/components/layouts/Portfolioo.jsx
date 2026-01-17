@@ -4,7 +4,10 @@ import Container from "../Container";
 const Portfolioo = () => {
   return (
     <>
-      <section id="portfolio" className="h-[600px] md:h-[600px] lg:h-[720px] scroll-mt-0 ">
+      <section
+        id="portfolio"
+        className="h-[600px] md:h-[600px] lg:h-[720px] scroll-mt-0 "
+      >
         <div className="pt-[100px] h-full lg:h-[550px] bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(80,134,143,1)_36%,rgba(58,119,129,1)_45%,rgba(39,106,117,1)_54%,rgba(28,98,110,1)_62%,rgba(21,93,105,1)_67%,rgba(11,86,99,1)_100%)]">
           <Container>
             <div className="">
@@ -20,7 +23,6 @@ const Portfolioo = () => {
                   <div className="md:w-[50%] overflow-hidden">
                     <img
                       src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/f_auto,q_auto/v1768544464/gotrip_spaofy.jpg"
-                      
                       alt="project"
                       className="h-[200px] md:h-[250px] lg:h-[400px] w-full"
                     />
@@ -35,8 +37,10 @@ const Portfolioo = () => {
                       design, dynamic UI with React.js, state management with
                       Redux, and many more.
                     </p>
-                    <button>link</button> 
-                    <button>github</button>
+                    <Flex>
+                      <button>link</button>
+                      <button>github</button>
+                    </Flex>
                   </div>
                 </div>
                 {/* =========project 1======== */}
