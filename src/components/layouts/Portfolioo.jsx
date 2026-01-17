@@ -38,7 +38,7 @@ const Portfolioo = () => {
                       design, dynamic UI with React.js, state management with
                       Redux, and many more.
                     </p>
-                    <Flex>
+                    <Flex className={"gap-x-5"}>
                       <button>link</button>
                       <button>github</button>
                     </Flex>
