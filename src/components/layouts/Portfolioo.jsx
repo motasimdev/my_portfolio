@@ -29,7 +29,7 @@ const Portfolioo = () => {
                     <h4 className="text-xl md:text-2xl lg:text-3xl font-medium md:font-semibold text-[#E0FFFE] text-center md:text-left py-3 lg:py-5">
                       Project Brief
                     </h4>
-                    <p className="text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-[32px]">
+                    <p className="lg:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-[32px]">
                       It’s an E-commerce Web Application with product listing,
                       add to cart, remove from cart, product search, responsive
                       design, dynamic UI with React.js, state management with
