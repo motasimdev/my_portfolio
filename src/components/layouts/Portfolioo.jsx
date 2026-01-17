@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Container";
+import Flex from "../Flex";
 
 const Portfolioo = () => {
   return (
