@@ -40,7 +40,7 @@ const Portfolioo = () => {
                       Redux, and many more.
                     </p>
                     <Flex className={"gap-x-5 mt-8"}>
-                      <Link className="">link</Link>
+                      <Link className="py-3 px-5 bg-red-300">link</Link>
                       <Link>github</Link>
                     </Flex>
                   </div>
