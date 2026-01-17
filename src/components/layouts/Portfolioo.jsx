@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
+import { Link } from "react-router-dom";
 
 const Portfolioo = () => {
   return (
@@ -39,8 +40,8 @@ const Portfolioo = () => {
                       Redux, and many more.
                     </p>
                     <Flex className={"gap-x-5 mt-8"}>
-                      <button>link</button>
-                      <button>github</button>
+                      <Link className="">link</Link>
+                      <Link>github</Link>
                     </Flex>
                   </div>
                 </div>
