@@ -35,7 +35,8 @@ const Portfolioo = () => {
                       design, dynamic UI with React.js, state management with
                       Redux, and many more.
                     </p>
-                    <button>click</button>
+                    <button>link</button> 
+                    <button></button>
                   </div>
                 </div>
                 {/* =========project 1======== */}
