@@ -38,7 +38,7 @@ const Portfolioo = () => {
                       add to cart, remove from cart, product search, responsive
                       design, dynamic UI with React.js, state management with
                       Redux, and many more.
-                    </p>
+                    </p>  
                     <Flex className={"gap-x-5 mt-8"}>
                     </Flex>
                   </div>
