@@ -1,9 +1,11 @@
 import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
+import LinkIcon from "../LinkIcon";
 import { Link } from "react-router-dom";
 
 const Portfolioo = () => {
+  const LINK_ICON = require("/src/assets/icons/linkIcon.json");
   return (
     <>
       <section
@@ -37,9 +39,10 @@ const Portfolioo = () => {
                       It’s an E-commerce Web Application with product listing,
                       add to cart, remove from cart, product search, responsive
                       design, dynamic UI with React.js, state management with
-                      Redux, and many more.
+ v                     Redux, and many more.
                     </p>  
                     <Flex className={"gap-x-5 mt-8"}>
+                        <LinkIcon />
                     </Flex>
                   </div>
                 </div>
