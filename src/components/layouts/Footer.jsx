@@ -37,6 +37,7 @@ const Footer = () => {
               </a>
             </Flex>
           </div>
+          <a href="https://lordicon.com/">Icons by Lordicon.com</a>
         </Container>
       </div>
     </>
