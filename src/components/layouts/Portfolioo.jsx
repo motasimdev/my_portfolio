@@ -41,9 +41,14 @@ const Portfolioo = () => {
                       Redux, and many more.
                     </p>
                     <Flex className={"gap-x-5 mt-8"}>
-                      {/* <a href="#" className="transition-all duration-300 hover:scale-110 group flex items-center justify-center"> */}
-                        <LinkIcon size={25} />
-                      {/* </a> */}
+                      <div className="">
+                        <a
+                          href="#"
+                          className="flex items-center border border-white/20 bg-white/10 backdrop-blur-[px] px-10"
+                        >
+                          Live Link <LinkIcon size={35} />
+                        </a>
+                      </div>
                     </Flex>
                   </div>
                 </div>

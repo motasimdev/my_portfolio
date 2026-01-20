@@ -12,7 +12,7 @@ const LinkIcon = ({ size, className, href }) => {
   return (
     <span
       href={href}
-      className={className}
+      className={`inline-block ${className}`}
       onMouseEnter={() => playerRef.current?.playFromBeginning()}
     >
       <Player ref={playerRef} icon={LINK_ICON} size={size} />
