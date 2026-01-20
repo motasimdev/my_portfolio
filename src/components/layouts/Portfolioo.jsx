@@ -27,7 +27,7 @@ const Portfolioo = () => {
                     <img
                       src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/f_auto,q_auto/v1768544464/gotrip_spaofy.jpg"
                       alt="project"
-                      className="h-[200px] md:h-[250px] lg:h-[400px] w-full"
+                      className="h-50 md:h-62.5 lg:h-100 w-full"
                     />
                   </div>
                   <div className="md:w-[45%] px-2 lg:px-0">
