@@ -23,24 +23,24 @@ const Portfolioo = () => {
               <div className="px-3 lg:px-0">
                 {/* =========project 1======== */}
                 <div className="p-1.5 md:p-2 border border-white/20 bg-white/10 backdrop-blur-sm md:flex justify-between shadow-[6px_11px_17px_0px_rgba(0,0,0,0.2)]">
-                  <div className="md:w-[50%] overflow-hidden">
+                  <div className="md:w-[44%] lg:w-[50%] overflow-hidden">
                     <img
                       src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/f_auto,q_auto/v1768544464/gotrip_spaofy.jpg"
                       alt="project"
                       className="h-50 md:h-62.5 lg:h-100 w-full"
                     />
                   </div>
-                  <div className="md:w-[45%] px-2 lg:px-0">
+                  <div className="md:w-[53%] lg:w-[45%] px-2 lg:px-0">
                     <h4 className="text-xl md:text-2xl lg:text-3xl font-medium md:font-semibold text-[#E0FFFE] text-center md:text-left py-3 lg:py-5">
                       Project Brief
                     </h4>
-                    <p className="lg:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-8">
+                    <p className="md:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-8">
                       It’s an E-commerce Web Application with product listing,
                       add to cart, remove from cart, product search, responsive
                       design, dynamic UI with React.js, state management with v
                       Redux, and many more.
                     </p>
-                    <Flex className={"gap-x-5 mt-15"}>
+                    <Flex className={"gap-x-5 md:mt-9 lg:mt-15"}>
                       <div className="">
                         <LinkIcon text={"Live Link"} size={25}/>
                       </div>
