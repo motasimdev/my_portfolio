@@ -5,7 +5,6 @@ import LinkIcon from "../LinkIcon";
 import { Link } from "react-router-dom";
 
 const Portfolioo = () => {
-  const LINK_ICON = require("/src/assets/icons/linkIcon.json");
   return (
     <>
       <section
@@ -38,11 +37,13 @@ const Portfolioo = () => {
                     <p className="lg:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-[32px]">
                       It’s an E-commerce Web Application with product listing,
                       add to cart, remove from cart, product search, responsive
-                      design, dynamic UI with React.js, state management with
- v                     Redux, and many more.
-                    </p>  
+                      design, dynamic UI with React.js, state management with v
+                      Redux, and many more.
+                    </p>
                     <Flex className={"gap-x-5 mt-8"}>
-                        <LinkIcon />
+                      {/* <a href="#" className="transition-all duration-300 hover:scale-110 group flex items-center justify-center"> */}
+                        <LinkIcon size={25} />
+                      {/* </a> */}
                     </Flex>
                   </div>
                 </div>
