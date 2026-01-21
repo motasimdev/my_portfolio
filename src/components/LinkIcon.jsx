@@ -6,16 +6,15 @@ const LinkIcon = ({ href, text }) => {
   const [size, setSize] = useState(0);
   const playerRef = useRef(null);
   const containerRef = useRef(null);
-  console.log(containerRef.current);
 
   // icon size control
   useEffect(() => {
     const updateSize = () => {
       if (window.innerWidth < 640) {
-        setSize(5);
+        setSize(18);
       } else if (window.innerWidth < 1024) {
         setSize(20);
-      } else setSize(40);
+      } else setSize(25);
     };
     updateSize();
     window.addEventListener("resize", updateSize);

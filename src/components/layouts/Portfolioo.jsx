@@ -22,7 +22,7 @@ const Portfolioo = () => {
 
               <div className="px-3 lg:px-0">
                 {/* =========project 1======== */}
-                <div className="p-1.5 md:p-2 border border-white/20 bg-white/10 backdrop-blur-sm md:flex justify-between shadow-[6px_11px_17px_0px_rgba(0,0,0,0.2)]">
+                <div className="p-1.5 pb-4 md:p-2 border border-white/20 bg-white/10 backdrop-blur-sm md:flex justify-between shadow-[6px_11px_17px_0px_rgba(0,0,0,0.2)]">
                   <div className="md:w-[44%] lg:w-[50%] overflow-hidden">
                     <img
                       src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/f_auto,q_auto/v1768544464/gotrip_spaofy.jpg"
@@ -40,7 +40,10 @@ const Portfolioo = () => {
                       design, dynamic UI with React.js, state management with v
                       Redux, and many more.
                     </p>
-                    <Flex className={"gap-x-5 md:mt-9 lg:mt-15"}>
+                    <Flex className={"gap-x-5 mt-4 md:mt-9 lg:mt-15"}>
+                      <div className="">
+                        <LinkIcon text={"Live Link"}/>
+                      </div>
                       <div className="">
                         <LinkIcon text={"Live Link"}/>
                       </div>
