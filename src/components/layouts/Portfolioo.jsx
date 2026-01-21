@@ -1,10 +1,10 @@
 
 import Container from "../Container";
 import Flex from "../Flex";
-// import LinkIcon from "../LinkIcon";
 import { Link } from "react-router-dom";
 import LordIconSetup from "../LordIconSetup";
 import LINK_ICON from "/src/assets/icons/linkIcon.json";
+
 
 const Portfolioo = () => {
   return (
