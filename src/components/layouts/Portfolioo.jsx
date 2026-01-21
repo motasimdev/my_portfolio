@@ -4,6 +4,7 @@ import Flex from "../Flex";
 import { Link } from "react-router-dom";
 import LordIconSetup from "../LordIconSetup";
 import LINK_ICON from "/src/assets/icons/linkIcon.json";
+import GITHUB_ICON from "/src/assets/icons/github.json";
 
 
 const Portfolioo = () => {
@@ -13,7 +14,7 @@ const Portfolioo = () => {
         id="portfolio"
         className="h-[600px] md:h-[600px] lg:h-[720px] scroll-mt-0 "
       >
-        <div className="pt-[100px] h-full lg:h-[550px] bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(80,134,143,1)_36%,rgba(58,119,129,1)_45%,rgba(39,106,117,1)_54%,rgba(28,98,110,1)_62%,rgba(21,93,105,1)_67%,rgba(11,86,99,1)_100%)]">
+        <div className="pt-[100px] h-full lg:h-[575px] bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(80,134,143,1)_36%,rgba(58,119,129,1)_45%,rgba(39,106,117,1)_54%,rgba(28,98,110,1)_62%,rgba(21,93,105,1)_67%,rgba(11,86,99,1)_100%)]">
           <Container>
             <div className="">
               <div className="text-center py-3 lg:py-6 mb-10 lg:mb-15 bg-[radial-gradient(circle,rgba(23,102,114,1)_0%,rgba(54,122,133,1)_19%,rgba(70,132,143,1)_32%,rgba(83,141,151,1)_47%,rgba(116,163,171,1)_68%,rgba(153,187,193,1)_100%,rgba(255,255,255,1)_100%)]">
@@ -32,7 +33,7 @@ const Portfolioo = () => {
                       className="h-50 md:h-62.5 lg:h-100 w-full"
                     />
                   </div>
-                  <div className="md:w-[53%] lg:w-[45%] px-2 lg:px-0">
+                  <div className="md:w-[53%] lg:pt-8 lg:w-[45%] px-2 lg:px-0">
                     <h4 className="text-xl md:text-2xl lg:text-3xl font-medium md:font-semibold text-[#E0FFFE] text-center md:text-left py-3 lg:py-5">
                       Project Brief
                     </h4>
@@ -47,7 +48,7 @@ const Portfolioo = () => {
                         <LordIconSetup icon={LINK_ICON} text={"Live Link"}/>
                       </div>
                       <div className="">
-                        <LordIconSetup icon={LINK_ICON} />
+                        <LordIconSetup icon={GITHUB_ICON} text={"Github Source"}/>
                       </div>
                     </Flex>
                   </div>
