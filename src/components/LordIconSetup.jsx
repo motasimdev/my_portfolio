@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Player } from "@lordicon/react";
 
-const LordIconSetup = ({ icon, href, text }) => {
+const LordIconSetup = ({ icon, href, text, sizes }) => {
   const [size, setSize] = useState(0);
   const playerRef = useRef(null);
   const containerRef = useRef(null);
@@ -10,17 +10,17 @@ const LordIconSetup = ({ icon, href, text }) => {
   useEffect(() => {
     const updateSize = () => {
       if (window.innerWidth < 640) {
-        setSize(18);
+        setSize(sizes?.sm ?? 18);
       } else if (window.innerWidth < 1024) {
-        setSize(20);
-      } else setSize(25);
+        setSize(sizes?.md ?? 20);
+      } else setSize(sizes?.lg ?? 25);
     };
     updateSize();
     window.addEventListener("resize", updateSize);
     return () => {
       window.removeEventListener("resize", updateSize);
     };
-  }, []);
+  }, [sizes]);
 
   //mobile animate
   useEffect(() => {
@@ -33,16 +33,18 @@ const LordIconSetup = ({ icon, href, text }) => {
         }
       });
       observer.observe(containerRef.current);
-      return ()=>{observer.disconnect()}
+      return () => {
+        observer.disconnect();
+      };
     }
   }, []);
 
-    // desktop hover
-    const handleIcon = () => {
-      if (window.innerWidth >= 1024) {
-        playerRef.current?.playFromBeginning();
-      }
-    };
+  // desktop hover
+  const handleIcon = () => {
+    if (window.innerWidth >= 1024) {
+      playerRef.current?.playFromBeginning();
+    }
+  };
 
   return (
     <a

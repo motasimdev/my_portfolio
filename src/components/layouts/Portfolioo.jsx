@@ -12,7 +12,7 @@ const Portfolioo = () => {
     <>
       <section
         id="portfolio"
-        className="h-[600px] md:h-[600px] lg:h-[720px] scroll-mt-0 "
+        className="h-[600px] md:h-[600px] lg:h-[720px] scroll-mt-0"
       >
         <div className="pt-[100px] h-full lg:h-[575px] bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(80,134,143,1)_36%,rgba(58,119,129,1)_45%,rgba(39,106,117,1)_54%,rgba(28,98,110,1)_62%,rgba(21,93,105,1)_67%,rgba(11,86,99,1)_100%)]">
           <Container>
@@ -54,7 +54,7 @@ const Portfolioo = () => {
                     </div>
                   </div>
                   {/* =========project 1======== */}
-                  {/* =========project 1======== */}
+                  {/* =========project 2======== */}
                   <div className="p-1.5 pb-4 md:p-2 border border-white/20 bg-white/10 backdrop-blur-sm md:flex justify-between shadow-[6px_11px_17px_0px_rgba(0,0,0,0.2)]">
                     <div className="md:w-[44%] lg:w-[50%] overflow-hidden">
                       <img
@@ -83,7 +83,7 @@ const Portfolioo = () => {
                       </Flex>
                     </div>
                   </div>
-                  {/* =========project 1======== */}
+                  {/* =========project 2======== */}
               </div>
             </div>
           </Container>
