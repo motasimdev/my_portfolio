@@ -43,7 +43,7 @@ const Portfolioo = () => {
                       design, dynamic UI with React.js, state management with v
                       Redux, and many more.
                     </p>
-                    <Flex className={"gap-x-5 mt-4 md:mt-9 lg:mt-15"}>
+                    <Flex className={"justify-center md:justify-normal gap-x-5 mt-4 md:mt-9 lg:mt-15"}>
                       <div className="">
                         <LordIconSetup icon={LINK_ICON} text={"Live Link"}/>
                       </div>
