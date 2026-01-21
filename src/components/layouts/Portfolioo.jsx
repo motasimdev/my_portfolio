@@ -42,7 +42,7 @@ const Portfolioo = () => {
                     </p>
                     <Flex className={"gap-x-5 md:mt-9 lg:mt-15"}>
                       <div className="">
-                        <LinkIcon text={"Live Link"} size={25}/>
+                        <LinkIcon text={"Live Link"}/>
                       </div>
                     </Flex>
                   </div>

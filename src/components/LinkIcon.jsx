@@ -1,23 +1,40 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Player } from "@lordicon/react";
 import LINK_ICON from "../assets/icons/linkIcon.json";
 
-const LinkIcon = ({ size, href, text }) => {
+const LinkIcon = ({ href, text }) => {
+  const [size, setSize] = useState(0);
   const playerRef = useRef(null);
   const containerRef = useRef(null);
   console.log(containerRef.current);
+
+  // icon size control
+  useEffect(() => {
+    const updateSize = () => {
+      if (window.innerWidth < 640) {
+        setSize(5);
+      } else if (window.innerWidth < 1024) {
+        setSize(20);
+      } else setSize(40);
+    };
+    updateSize();
+    window.addEventListener("resize", updateSize);
+    return () => {
+      window.removeEventListener("resize", updateSize);
+    };
+  }, []);
 
   //mobile animate
   useEffect(() => {
     if (window.innerWidth < 1024 && containerRef.current) {
       const observer = new IntersectionObserver((entries) => {
-        entries.map((entry) => {
-          if (entry.isIntersecting) {
-            playerRef.current?.playFromBeginning();
-            observer.disconnect();
-          }
-        });
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          playerRef.current?.playFromBeginning();
+          observer.disconnect();
+        }
       });
+      observer.observe(containerRef.current);
     }
   }, []);
 
@@ -31,7 +48,8 @@ const LinkIcon = ({ size, href, text }) => {
   return (
     <a
       href={href}
-      className={`btn-shine lg:text-primary text-[15px] text-shadow-lg lg:text-lg font-medium flex gap-x-2 shadow-lg items-center border border-white/20 bg-white/10 backdrop-blur-[px] cursor-pointer`}
+      className={`btn-shine py-1.5 pl-4 pr-3 lg:text-primary text-[13px] text-shadow-lg lg:text-lg font-medium flex gap-x-2 shadow-lg items-center border border-white/20 bg-white/10 backdrop-blur-[px] cursor-pointer`}
+      ref={containerRef}
       onMouseEnter={handleIcon}
       onFocus={handleIcon}
     >
