@@ -1,8 +1,10 @@
-import React from "react";
+
 import Container from "../Container";
 import Flex from "../Flex";
-import LinkIcon from "../LinkIcon";
+// import LinkIcon from "../LinkIcon";
 import { Link } from "react-router-dom";
+import LordIconSetup from "../LordIconSetup";
+import LINK_ICON from "/src/assets/icons/linkIcon.json";
 
 const Portfolioo = () => {
   return (
@@ -42,10 +44,10 @@ const Portfolioo = () => {
                     </p>
                     <Flex className={"gap-x-5 mt-4 md:mt-9 lg:mt-15"}>
                       <div className="">
-                        <LinkIcon text={"Live Link"}/>
+                        <LordIconSetup icon={LINK_ICON} text={"Live Link"}/>
                       </div>
                       <div className="">
-                        <LinkIcon text={"Live Link"}/>
+                        <LordIconSetup icon={LINK_ICON} />
                       </div>
                     </Flex>
                   </div>
