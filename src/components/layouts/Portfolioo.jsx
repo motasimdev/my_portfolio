@@ -12,7 +12,7 @@ const Portfolioo = () => {
     <>
       <section
         id="portfolio"
-        className="h-[600px] md:h-[600px] lg:h-[720px] scroll-mt-0"
+        className="h-[1200px] md:h-[1200px] lg:h-[1500px] scroll-mt-0"
       >
         <div className="pt-[100px] h-full lg:h-[575px] bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(80,134,143,1)_36%,rgba(58,119,129,1)_45%,rgba(39,106,117,1)_54%,rgba(28,98,110,1)_62%,rgba(21,93,105,1)_67%,rgba(11,86,99,1)_100%)]">
           <Container>
