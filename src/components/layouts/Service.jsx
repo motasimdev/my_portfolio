@@ -10,8 +10,8 @@ const Service = () => {
   return (
     <>
       <section id="service" className="h-[1050px] lg:h-[680px] scroll-mt-0">
-        <div className="pt-[50px] lg:pt-[100px] h-[1000px] lg:h-[550px] ">
-          <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 bg-[radial-gradient(circle,rgba(59,147,157,1)_0%,rgba(56,143,153,1)_9%,rgba(11,86,99,1)_100%)]">
+        <div className="pt-[50px] lg:pt-[100px] h-[1000px] lg:h-[550px] serviceBg">
+          <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 serviceHeadingBg">
             <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
               My Services
             </h3>
