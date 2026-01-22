@@ -10,14 +10,14 @@ const Service = () => {
   return (
     <>
       <section id="service" className="h-[1050px] lg:h-[680px] scroll-mt-0">
-        <div className="pt-[50px] lg:pt-[100px] h-[1000px] lg:h-[550px] bg-[linear-gradient(180deg,rgba(11,86,99,1)_0%,rgba(21,93,105,1)_36%,rgba(28,98,110,1)_45%,rgba(39,106,117,1)_54%,rgba(58,119,129,1)_62%,rgba(80,134,143,1)_67%,rgba(255,255,255,1)_100%)]">
+        <div className="pt-[50px] lg:pt-[100px] h-[1000px] lg:h-[550px] ">
+          <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 bg-[radial-gradient(circle,rgba(59,147,157,1)_0%,rgba(56,143,153,1)_9%,rgba(11,86,99,1)_100%)]">
+            <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
+              My Services
+            </h3>
+          </div>
           <Container>
             <div className="">
-              <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 bg-[radial-gradient(circle,rgba(59,147,157,1)_0%,rgba(56,143,153,1)_9%,rgba(11,86,99,1)_100%)]">
-                <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
-                  My Services
-                </h3>
-              </div>
               <div
                 className={
                   "flex flex-col gap-y-1 lg:flex-row items-center justify-between"
