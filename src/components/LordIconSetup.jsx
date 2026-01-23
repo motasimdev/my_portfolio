@@ -49,7 +49,7 @@ const LordIconSetup = ({ icon, href, text, sizes }) => {
   return (
     <a
       href={href}
-      className={`btn-shine py-1.5 lg:py-2 pl-4 pr-3 lg:text-primary text-[13px] text-shadow-lg lg:text-lg font-medium flex gap-x-2 shadow-lg items-center border border-white/20 bg-white/10 backdrop-blur-[px] cursor-pointer`}
+      className={`btn-shine py-1.5 lg:py-2 pl-4 pr-3 lg:text-primary text-[13px] text-shadow-lg lg:text-lg font-medium flex gap-x-2 shadow-lg items-center border border-white/20 bg-white/10 backdrop-blur-[px] cursor-pointer hover:shadow-sm hover:shadow-[#2c2c2c] transition-all duration-200`}
       ref={containerRef}
       onMouseEnter={handleIcon}
       onFocus={handleIcon}
