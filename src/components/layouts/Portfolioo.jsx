@@ -31,11 +31,8 @@ const Portfolioo = () => {
                     <h4 className="text-xl md:text-2xl lg:text-3xl font-medium md:font-semibold text-[#E0FFFE] text-center md:text-left py-3 lg:py-5">
                       Project Brief
                     </h4>
-                    <p className="md:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-8">
-                      It’s an Tour Web Application with product listing,
-                      add to cart, remove from cart, product search, responsive
-                      design, dynamic UI with React.js, state management with
-                      Redux, and many more.
+                    <p className="md:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-8 line-clamp-4 lg:line-clamp-4">
+                    GoTrip is a travel and tour website designed to showcase travel packages, destinations, hotels, and travel-related services. The site focuses on providing users with an attractive and easy-to-navigate interface to explore trips and tour options. It appears to be built using modern frontend technologies and is hosted on Vercel, making it fast, responsive, and suitable as a travel agency landing page or portfolio project.
                     </p>
                     <Flex
                       className={
