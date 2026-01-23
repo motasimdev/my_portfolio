@@ -34,7 +34,7 @@ const Portfolioo = () => {
                     <p className="md:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-8">
                       It’s an Tour Web Application with product listing,
                       add to cart, remove from cart, product search, responsive
-                      design, dynamic UI with React.js, state management with v
+                      design, dynamic UI with React.js, state management with
                       Redux, and many more.
                     </p>
                     <Flex
