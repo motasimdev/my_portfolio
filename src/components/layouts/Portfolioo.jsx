@@ -17,7 +17,7 @@ const Portfolioo = () => {
           </div>
           <Container>
             <div className="">
-              <div className="px-3 lg:px-0 flex flex-col gap-y-15">
+              <div className="px-3 lg:px-0 flex flex-col gap-y-8 mg:gap-y-15">
                 {/* =========project 1======== */}
                 <div className="p-1.5 pb-4 md:p-2 border border-white/20 bg-white/10 backdrop-blur-sm md:flex justify-between shadow-[6px_11px_17px_0px_rgba(0,0,0,0.2)]">
                   <div className="md:w-[44%] lg:w-[50%] overflow-hidden">
