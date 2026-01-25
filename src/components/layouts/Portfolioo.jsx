@@ -68,7 +68,7 @@ const Portfolioo = () => {
                 <div className="p-1.5 pb-4 md:p-2 border border-white/20 bg-white/10 backdrop-blur-sm md:flex justify-between shadow-[6px_11px_17px_0px_rgba(0,0,0,0.2)]">
                   <div className="md:w-[44%] lg:w-[50%] overflow-hidden">
                     <img
-                      src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/f_auto,q_auto/v1768544464/gotrip_spaofy.jpg"
+                      src="https://res.cloudinary.com/dxihqxcjs/image/upload/f_auto,q_auto/f_auto,q_auto/v1769350367/orebi_pwawp1.jpg"
                       alt="project"
                       className="h-50 md:h-62.5 lg:h-100 w-full"
                     />
@@ -80,7 +80,7 @@ const Portfolioo = () => {
                     <p className="md:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-8">
                       It’s an E-commerce Web Application with product listing,
                       add to cart, remove from cart, product search, responsive
-                      design, dynamic UI with React.js, state management with v
+                      design, dynamic UI with React.js, state management with
                       Redux, and many more.
                     </p>
                     <Flex
@@ -89,12 +89,17 @@ const Portfolioo = () => {
                       }
                     >
                       <div className="">
-                        <LordIconSetup icon={LINK_ICON} text={"Live Link"} />
+                        <LordIconSetup
+                          icon={LINK_ICON}
+                          text={"Live Link"}
+                          href={"https://orebi-ecommerce-react.vercel.app/"}
+                        />
                       </div>
                       <div className="">
                         <LordIconSetup
                           icon={GITHUB_ICON}
                           text={"Github Source"}
+                          href={"https://github.com/motasimdev/orebi-ecommerce-react"}
                         />
                       </div>
                     </Flex>
