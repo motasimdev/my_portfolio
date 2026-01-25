@@ -50,7 +50,7 @@ const Banner = () => {
                         className="font-semibold text-[#E0FFFE] text-[24px] lg:text-[40px] relative z-60"
                       />
                     </div>
-                    <Flex className={"gap-x-5 mt-12 lg:mt-0"}>
+                    <Flex className={"gap-x-5 mt-12 lg:mt-20"}>
                       {/* ==================btn 1======== */}
                       <Link
                         to={
@@ -58,7 +58,7 @@ const Banner = () => {
                         }
                         target="_blank"
                       >
-                        <button className="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-20 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-40">
+                        <button className="relative flex items-center px-3 lg:px-6 py-2 lg:py-3 lg:mt-0 cursor-pointer overflow-hidden font-medium transition-all bg-[#72C6CF] rounded-md group z-40">
                           <span className="absolute top-0 right-0 inline-block w-3 lg:w-4 h-3 lg:h-4 transition-all duration-500 ease-in-out bg-primary rounded group-hover:-mr-4 group-hover:-mt-4">
                             <span className="absolute top-0 right-0 w-4 lg:w-5 h-4 lg:h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                           </span>
@@ -75,7 +75,7 @@ const Banner = () => {
 
                       {/* ==================btn 2======== */}
 
-                      <div className="flex justify-center items-center lg:mt-19">
+                      <div className="flex justify-center items-center lg:mt-0">
                         <Link
                           to={"https://github.com/motasimdev"}
                           target="_blank"
@@ -102,6 +102,7 @@ const Banner = () => {
 
                       {/* ==================btn 2 end======== */}
                     </Flex>
+                    
                   </div>
                   <motion.div
                     className="md:w-[48%] lg:w-[40%] hidden md:block"
@@ -140,47 +141,6 @@ const Banner = () => {
                       </div>
                     </div>
                   </motion.div>
-                  {/* <div className="">
-                    <motion.img
-                      // ========animate=====
-                      initial={{
-                        y: -100,
-                      }}
-                      whileInView={{
-                        y: 0,
-                      }}
-                      viewport={{
-                        once: true,
-                      }}
-                      transition={{
-                        duration: 1.5,
-                      }}
-                      // ========animate=====
-                      src={
-                        "https://res.cloudinary.com/dxihqxcjs/image/upload/c_auto,ar_3:4/myPortfolioPic_cmhtcu.jpg"
-                      }
-                      className={
-                        "hidden lg:block absolute top-[-170px] lg:top-[-280px] translate-x-1/2 lg:translate-x-0 right-1/2 lg:right-[-30px] w-[360px] lg:w-[560px] rounded-full z-40"
-                      }
-                    />
-                  </div> */}
-                  {/* <motion.div
-                    // ========animate=====
-                    initial={{
-                      y: -100,
-                    }}
-                    whileInView={{
-                      y: 0,
-                    }}
-                    viewport={{
-                      once: true,
-                    }}
-                    transition={{
-                      duration: 1.5,
-                    }}
-                    // ========animate=====
-                    className="hidden absolute top-[-170px] lg:top-[-280px] right-1/2 lg:right-[-30px] translate-x-1/2 lg:translate-x-0 h-[480px] lg:h-0 w-[360px] lg:w-[560px] rounded-full bg-black/30 z-50 pointer-events-none"
-                  ></motion.div> */}
                 </Flex>
               </div>
             </Container>
