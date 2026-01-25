@@ -37,7 +37,7 @@ const Footer = () => {
               </a>
             </Flex>
           </div>
-          <a href="https://lordicon.com/" className="px-3 lg:px-0 pt-3 md:pt-0 flex justify-center md:justify-end text-sm">Icons by Lordicon.com</a>
+          <a href="https://lordicon.com/" className="px-3 lg:px-0 pt-3 md:pt-0 flex justify-center md:justify-end text-[12px] lg:text-sm">Icons by Lordicon.com</a>
         </Container>
       </div>
     </>

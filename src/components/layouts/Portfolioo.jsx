@@ -32,7 +32,14 @@ const Portfolioo = () => {
                       Project Brief
                     </h4>
                     <p className="md:pr-14 text-white text-[13px] lg:text-base text-justify leading-6 lg:leading-8 line-clamp-4 lg:line-clamp-4">
-                    GoTrip is a travel and tour website designed to showcase travel packages, destinations, hotels, and travel-related services. The site focuses on providing users with an attractive and easy-to-navigate interface to explore trips and tour options. It appears to be built using modern frontend technologies and is hosted on Vercel, making it fast, responsive, and suitable as a travel agency landing page or portfolio project.
+                      GoTrip is a travel and tour website designed to showcase
+                      travel packages, destinations, hotels, and travel-related
+                      services. The site focuses on providing users with an
+                      attractive and easy-to-navigate interface to explore trips
+                      and tour options. It appears to be built using modern
+                      frontend technologies and is hosted on Vercel, making it
+                      fast, responsive, and suitable as a travel agency landing
+                      page.
                     </p>
                     <Flex
                       className={
@@ -40,12 +47,17 @@ const Portfolioo = () => {
                       }
                     >
                       <div className="">
-                        <LordIconSetup icon={LINK_ICON} text={"Live Link"} />
+                        <LordIconSetup
+                          icon={LINK_ICON}
+                          text={"Live Link"}
+                          href={"https://go-trip.vercel.app/"} 
+                        />
                       </div>
                       <div className="">
                         <LordIconSetup
                           icon={GITHUB_ICON}
                           text={"Github Source"}
+                          href={"https://github.com/motasimdev/Go-Trip"}
                         />
                       </div>
                     </Flex>
