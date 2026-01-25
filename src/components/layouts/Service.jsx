@@ -9,7 +9,7 @@ import { motion } from "motion/react";
 const Service = () => {
   return (
     <>
-      <section id="service" className="h-[1050px] lg:h-[680px] scroll-mt-0">
+      <section id="service" className="h-[1100px] lg:h-[680px] scroll-mt-0">
         <div className="pt-[50px] lg:pt-[100px] h-[1000px] lg:h-[550px] serviceBg">
           <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 serviceHeadingBg">
             <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
@@ -20,14 +20,14 @@ const Service = () => {
             <div className="">
               <div
                 className={
-                  "flex flex-col gap-y-1 lg:flex-row items-center justify-between"
+                  "flex flex-col gap-y-10 lg:gap-y-0 md:flex-row md:flex-wrap items-center justify-between"
                 }
               >
                 {/* =================1============== */}
                 <motion.div
-                  initial={{ scale: 0.5, opacity: 0 }}
+                  initial={{ scale: 0.9, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
-                  viewport={{ once: false, amount: 0.5 }}
+                  viewport={{ once: true, amount: 0.5 }}
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}
                   className="w-[330px] lg:w-[380px] lg:h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
@@ -35,7 +35,7 @@ const Service = () => {
                   <h3 className="text-center text-xl lg:text-2xl text-[#E0FFFE] py-5">
                     Frontend Development
                   </h3>
-                  <p className="text-white text-[13px] lg:text-base text-justify leading-[32px]">
+                  <p className="text-white text-[13px] lg:text-base text-justify leading-8">
                     I create modern, responsive, and visually appealing website
                     designs focused on user experience and clean layout. Using
                     tools like Figma and Tailwind CSS, I ensure every design is
@@ -46,9 +46,9 @@ const Service = () => {
                 {/* =================2============== */}
 
                 <motion.div
-                  initial={{ scale: 0.5, opacity: 0 }}
+                  initial={{ scale: 0.9, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
-                  viewport={{ once: false, amount: 0.5 }}
+                  viewport={{ once: true, amount: 0.5 }}
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}
                   className="w-[330px] lg:w-[380px] lg:h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
@@ -67,9 +67,9 @@ const Service = () => {
                 {/* =================2============== */}
                 {/* =================3============== */}
                 <motion.div
-                  initial={{ scale: 0.5, opacity: 0 }}
+                  initial={{ scale: 0.9, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
-                  viewport={{ once: false, amount: 0.5 }}
+                  viewport={{ once: true, amount: 0.5 }}
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}
                   className="w-[330px] lg:w-[380px] lg:h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
