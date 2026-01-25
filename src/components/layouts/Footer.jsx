@@ -20,19 +20,19 @@ const Footer = () => {
               Billah
             </h4>
             <Flex className={"gap-x-4 justify-center"}>
-              <a href="">
+              <a href="https://fb.com/motasimdev" target={"_blank"}>
                 <AiOutlineFacebook className="text-[#6ec1be] hover:text-[#E0FFFE] transition-all duration-200 text-2xl" />
               </a>
-              <a href="">
+              <a href="https://linkedin.com/in/motasimdev" target={"_blank"}>
                 <AiOutlineLinkedin className="text-[#6ec1be] hover:text-[#E0FFFE] transition-all duration-200 text-2xl" />
               </a>
-              <a href="">
+              <a href="https://twitter.com/motasimdev" target={"_blank"}>
                 <RiTwitterXLine className="text-[#6ec1be] hover:text-[#E0FFFE] transition-all duration-200 text-2xl" />
               </a>
-              <a href="">
+              <a href="https://instagram.com/motabillah17" target={"_blank"}>
                 <AiOutlineInstagram className="text-[#6ec1be] hover:text-[#E0FFFE] transition-all duration-200 text-2xl" />
               </a>
-              <a href="">
+              <a href="https://github.com/motasimdev" target={"_blank"}>
                 <IoLogoGithub className="text-[#6ec1be] hover:text-[#E0FFFE] transition-all duration-200 text-2xl" />
               </a>
             </Flex>

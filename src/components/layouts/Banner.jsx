@@ -4,6 +4,7 @@ import Flex from "../Flex";
 import { motion } from "motion/react";
 import Typed from "typed.js";
 import { Link } from "react-router-dom";
+import LordIconSetup from "../LordIconSetup";
 
 const Banner = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
@@ -102,7 +103,9 @@ const Banner = () => {
 
                       {/* ==================btn 2 end======== */}
                     </Flex>
-                    
+                    <div className="flex items-center">
+                      <LordIconSetup/>
+                    </div>
                   </div>
                   <motion.div
                     className="md:w-[48%] lg:w-[40%] hidden md:block"
