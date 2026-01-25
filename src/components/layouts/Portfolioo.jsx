@@ -9,7 +9,7 @@ const Portfolioo = () => {
   return (
     <>
       <section id="portfolio" className="h-full scroll-mt-0">
-        <div className="pt-25 h-full portfolioBg">
+        <div className="pt-25 pb-15 lg:pb-25 h-full portfolioBg">
           <div className="text-center py-3 lg:py-6 mb-10 lg:mb-15 portfolioHeadingBg ">
             <h3 className="text-[#E0FFFE] font-semibold text-2xl md:text-3xl lg:text-4xl text-center">
               Portfolio

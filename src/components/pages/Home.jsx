@@ -38,7 +38,7 @@ const Home = () => {
           <Service />
           {/* <Portfolio /> */}
           <Portfolioo/>
-          {/* <Contact /> */}
+          <Contact />
         </>
       )}
     </>
