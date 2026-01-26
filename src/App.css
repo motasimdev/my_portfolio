@@ -3,14 +3,7 @@ html {
 }
 
 /* btn shine  */
-/* From Uiverse.io by neerajbaniwal */
 .btn-shine {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* padding: 12px 26px;
-  padding-right: 22px; */
   color: #0b5663;
   background: linear-gradient(to right, #72c6cf 0, #acd1d5 10%, #0b5663 20%);
   background-position: 0;
@@ -20,11 +13,8 @@ html {
   animation: shine 4s infinite linear;
   animation-fill-mode: forwards;
   -webkit-text-size-adjust: none;
-  /* font-weight: 600;
-  font-size: 16px; */
   text-decoration: none;
   white-space: nowrap;
-  /* font-family: "Poppins", sans-serif; */
 }
 @-moz-keyframes shine {
   0% {
@@ -70,6 +60,67 @@ html {
     background-position: 180px;
   }
 }
+/* btn shine  */
+
+/* btn shine2  */
+.btn-shineT {
+  color: #0b5663;
+  background: linear-gradient(to right, #72c6cf 0, #acd1d5 10%, #0b5663 20%);
+  background-position: 0;
+  background-clip: text;
+  background-size: 300% 100%;
+  -webkit-text-fill-color: transparent;
+  animation: shineMenu 4s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@-moz-keyframes shineMenu {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 80px;
+  }
+  100% {
+    background-position: 80px;
+  }
+}
+@-webkit-keyframes shineMenu {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 80px;
+  }
+  100% {
+    background-position: 80px;
+  }
+}
+@-o-keyframes shineMenu {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 80px;
+  }
+  100% {
+    background-position: 80px;
+  }
+}
+@keyframes shineMenu {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 80px;
+  }
+  100% {
+    background-position: 80px;
+  }
+}
+/* btn-shine 2 */
 
 /* service */
 .serviceBg {
