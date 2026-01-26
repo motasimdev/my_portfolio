@@ -61,27 +61,27 @@ const Header = () => {
                     </li>
                   </a>
                   <a href="#aboutMe" className="scroll-smooth">
-                    <li className="btn-shineT text-base font-medium text-[#0b5663] hover:text-white transition-all duration-300">
+                    <li className="btn-shineT text-base font-medium text-primary">
                       About me
                     </li>
                   </a>
                   <a href="#skills">
-                    <li className="btn-shineT text-base font-medium text-primary hover:text-white transition-all duration-300">
+                    <li className="btn-shineT text-base font-medium text-primary">
                       Skills
                     </li>
                   </a>
                   <a href="#service">
-                    <li className="btn-shineT text-base font-medium text-primary hover:text-white transition-all duration-300">
+                    <li className="btn-shineT text-base font-medium text-primary">
                       Service
                     </li>
                   </a>
                   <a href="#portfolio">
-                    <li className="btn-shineT text-base font-medium text-primary hover:text-white transition-all duration-300">
+                    <li className="btn-shineT text-base font-medium text-primary">
                       Portfolio
                     </li>
                   </a>
                   <a href="#contact">
-                    <li className="btn-shineT text-base font-medium text-primary hover:text-white transition-all duration-300">
+                    <li className="btn-shineT text-base font-medium text-primary">
                       Contact
                     </li>
                   </a>

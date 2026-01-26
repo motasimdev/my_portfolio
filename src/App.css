@@ -18,7 +18,7 @@ html {
 }
 @-moz-keyframes shine {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 180px;
@@ -29,7 +29,7 @@ html {
 }
 @-webkit-keyframes shine {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 180px;
@@ -40,7 +40,7 @@ html {
 }
 @-o-keyframes shine {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 180px;
@@ -51,7 +51,7 @@ html {
 }
 @keyframes shine {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 180px;
@@ -66,7 +66,7 @@ html {
 .btn-shineT {
   color: #0b5663;
   background: linear-gradient(to right, #72c6cf 0, #acd1d5 10%, #0b5663 20%);
-  background-position: 0;
+  background-position: -150% 0;
   background-clip: text;
   background-size: 300% 100%;
   -webkit-text-fill-color: transparent;
@@ -78,7 +78,7 @@ html {
 }
 @-moz-keyframes shineMenu {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 80px;
@@ -89,7 +89,7 @@ html {
 }
 @-webkit-keyframes shineMenu {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 80px;
@@ -100,7 +100,7 @@ html {
 }
 @-o-keyframes shineMenu {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 80px;
@@ -111,7 +111,7 @@ html {
 }
 @keyframes shineMenu {
   0% {
-    background-position: 0;
+    background-position: 30%;
   }
   60% {
     background-position: 80px;
@@ -121,6 +121,12 @@ html {
   }
 }
 /* btn-shine 2 */
+/* .btn-shineT:hover{
+  -webkit-text-fill-color: white;
+  background: none;
+  transition: all;
+  transition-duration: .3s;
+} */
 
 /* service */
 .serviceBg {
