@@ -121,12 +121,10 @@ html {
   }
 }
 /* btn-shine 2 */
-/* .btn-shineT:hover{
+.btn-shineT:hover{
   -webkit-text-fill-color: white;
   background: none;
-  transition: all;
-  transition-duration: .3s;
-} */
+}
 
 /* service */
 .serviceBg {
