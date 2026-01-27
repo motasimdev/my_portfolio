@@ -34,7 +34,7 @@ const Skills = () => {
               </h3>
             </div>
             <Marquee speed={50} gradient={false}>
-              <Flex className={"flex-wrap gap-x-0 lg:gap-x-10 justify-between"}>
+              <Flex className={"flex-wrap gap-x-0 md:gap-x-14 lg:gap-x-10 justify-between"}>
                 <div className="bg-primary flex justify-center items-center h-[36px] lg:h-[50px] w-[110px] lg:w-[160px] gap-x-4 cursor-pointer">
                   <RiHtml5Line className="text-4 lg:text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-[13px] lg:text-md">
@@ -80,9 +80,7 @@ const Skills = () => {
             </Marquee>
 
             <Marquee speed={50} direction="right">
-              <Flex
-                className={
-                  "flex-wrap gap-x-0 lg:gap-x-10 my-13 justify-between m"
+              <Flex className={"flex-wrap gap-x-0 md:gap-x-14 lg:gap-x-10 my-13 justify-between m"
                 }
               >
                 <div className="bg-primary flex justify-center items-center h-[36px] lg:h-[50px] w-[110px] lg:w-[160px] cursor-pointer">
@@ -125,7 +123,7 @@ const Skills = () => {
             </Marquee>
 
             <Marquee speed={50}>
-              <Flex className={"flex-wrap gap-x-0 lg:gap-x-10 justify-between"}>
+              <Flex className={"flex-wrap gap-x-0 md:gap-x-14 lg:gap-x-10 justify-between"}>
                 <div className="bg-primary flex justify-center items-center gap-x-2 h-[36px] lg:h-[50px] w-[110px] lg:w-[160px] cursor-pointer">
                   <SiChakraui className="text-4 lg:text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-[13px] lg:text-md">
