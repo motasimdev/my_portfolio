@@ -20,7 +20,7 @@ const Service = () => {
             <div className="">
               <div
                 className={
-                  "flex flex-col gap-y-10 lg:gap-y-0 md:flex-row lg:flex-row items-center justify-between"
+                  "flex flex-col gap-y-6 lg:gap-y-0 md:flex-row lg:flex-row items-center justify-between"
                 }
               >
                 {/* =================1============== */}
