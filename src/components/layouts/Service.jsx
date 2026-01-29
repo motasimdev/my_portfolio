@@ -10,7 +10,7 @@ const Service = () => {
   return (
     <>
       <section id="service" className="h-[1100px] lg:h-[680px] scroll-mt-0">
-        <div className="pt-[50px] lg:pt-[100px] h-[1000px] lg:h-[550px] serviceBg">
+        <div className="pt-12.5 lg:pt-25 h-250 lg:h-137.5 serviceBg">
           <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 serviceHeadingBg">
             <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
               My Services
