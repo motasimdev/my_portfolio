@@ -56,7 +56,7 @@ const Service = () => {
                   <h3 className="text-center text-xl lg:text-2xl text-[#E0FFFE] py-5">
                     MERN Development
                   </h3>
-                  <p className="text-white text-[13px] lg:text-base text-justify leading-[32px]">
+                  <p className="text-white text-[13px] lg:text-base text-justify leading-8">
                     I develop full-stack web applications using MongoDB,
                     Express, React, and Node.js. From backend logic to frontend
                     design, I ensure powerful, scalable, and user-friendly
