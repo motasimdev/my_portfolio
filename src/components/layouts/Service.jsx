@@ -77,7 +77,7 @@ const Service = () => {
                   <h3 className="text-center text-xl lg:text-2xl text-[#E0FFFE] py-5">
                     API Development
                   </h3>
-                  <p className="text-white text-[13px] lg:text-base text-justify leading-[32px]">
+                  <p className="text-white text-[13px] lg:text-base text-justify leading-8">
                     I create secure and efficient RESTful APIs using Node.js and
                     Express. My APIs are well-structured, fast, and easy to
                     integrate with any frontend or mobile application.
