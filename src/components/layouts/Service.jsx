@@ -11,7 +11,7 @@ const Service = () => {
     <>
       <section id="service" className="h-275 lg:h-170 scroll-mt-0">
         <div className="pt-12.5 lg:pt-25 h-250 lg:h-137.5 serviceBg">
-          <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 serviceHeadingBg">
+          <div className=" mb-10 lg:mb-15 py-3 lg:py-6 serviceHeadingBg">
             <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
               My Services
             </h3>
