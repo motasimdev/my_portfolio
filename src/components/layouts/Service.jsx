@@ -9,7 +9,7 @@ import { motion } from "motion/react";
 const Service = () => {
   return (
     <>
-      <section id="service" className="h-[1100px] lg:h-[680px] scroll-mt-0">
+      <section id="service" className="h-275 lg:h-170 scroll-mt-0">
         <div className="pt-12.5 lg:pt-25 h-250 lg:h-137.5 serviceBg">
           <div className=" mb-[40px] lg:mb-[60px] py-3 lg:py-6 serviceHeadingBg">
             <h3 className="text-[#E0FFFE] font-semibold text-2xl lg:text-4xl text-center">
