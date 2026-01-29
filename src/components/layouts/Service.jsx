@@ -71,7 +71,7 @@ const Service = () => {
                   whileInView={{ scale: 1, opacity: 1 }}
                   viewport={{ once: true, amount: 0.5 }}
                   transition={{ type: "spring", stiffness: 100, damping: 20 }}
-                  className="w-82.5 lg:w-95 lg:h-[380px] p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
+                  className="w-82.5 lg:w-95 lg:h-95 p-5 border border-white/20 bg-black/15 backdrop-blur-[15px] shadow-[6px_11px_17px_0px_rgba(0,_0,_0,_0.2)]"
                 >
                   <MdConnectedTv className="m-auto text-4xl lg:text-6xl text-white" />
                   <h3 className="text-center text-xl lg:text-2xl text-[#E0FFFE] py-5">
