@@ -42,7 +42,7 @@ const Skills = () => {
                   </p>
                 </div>
 
-                <div className="bg-primary flex justify-center items-center h-[36px] lg:h-[50px] w-[110px] lg:w-[160px] gap-x-4 cursor-pointer">
+                <div className="bg-primary flex justify-center items-center h-8 lg:h-[50px] w-[110px] lg:w-[160px] gap-x-4 cursor-pointer">
                   <TbBrandCss3 className="text-4 lg:text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-[13px] lg:text-md">
                     CSS
