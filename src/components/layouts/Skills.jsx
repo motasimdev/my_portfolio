@@ -24,7 +24,7 @@ const Skills = () => {
     <>
       <section
         id="skills"
-        className="py-[50px] lg:py-[120px] bg-[#3B939D] scroll-mt-7"
+        className="py-12.5 lg:py-[120px] bg-[#3B939D] scroll-mt-7"
       >
         <Container>
           <div className="">
