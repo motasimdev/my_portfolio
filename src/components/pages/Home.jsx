@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <motion.div
-        className="hidden lg:block h-2 bg-[#E0FFFE] w-full origin-left fixed top-0 left-0 z-[100]"
+        className="hidden lg:block h-2 bg-[#E0FFFE] w-full origin-left fixed top-0 left-0 z-100"
         style={{
           scaleX: scrollYProgress,
         }}
