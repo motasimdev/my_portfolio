@@ -63,7 +63,7 @@ const Skills = () => {
                   </p>
                 </div>
 
-                <div className="bg-primary flex justify-center items-center h-[36px] lg:h-[50px] w-[110px] lg:w-[160px] cursor-pointer">
+                <div className="bg-primary flex justify-center items-center h-[36px] lg:h-[50px] w-27.5 lg:w-40 cursor-pointer">
                   <RiBootstrapLine className="text-4 lg:text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-[13px] lg:text-md">
                     Bootstrap
