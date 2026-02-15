@@ -89,7 +89,7 @@ const Skills = () => {
                     Redux
                   </p>
                 </div>
-                <div className="bg-primary flex justify-center items-center h-9 lg:h-12.5 w-[110px] lg:w-[160px] cursor-pointer">
+                <div className="bg-primary flex justify-center items-center h-9 lg:h-12.5 w-27.5 lg:w-[160px] cursor-pointer">
                   <TbBrandNextjs className="text-4 lg:text-[30px] text-[#E0FFFE]" />
                   <p className="font-medium text-[#E0FFFE] text-[13px] lg:text-md">
                     Next Js
